@@ -37,6 +37,8 @@ public class RedisUtil {
      */
     private static int MAX_IDLE = 200;
 
+    private static int DEFAULT_DATABASE = 2;
+
 
     static {
         try {
@@ -44,7 +46,8 @@ public class RedisUtil {
             config.setMaxIdle(MAX_IDLE);
             config.setTestOnBorrow(TEST_ON_BORROW);
             config.setMaxWaitMillis(MAX_WAIT);
-            jedisPool = new JedisPool(config, ADDR, PORT, TIMEOUT, AUTH);
+
+            jedisPool = new JedisPool(config, ADDR, PORT, TIMEOUT, AUTH,DEFAULT_DATABASE);
         } catch (Exception e) {
             e.printStackTrace();
         }

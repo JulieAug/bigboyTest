@@ -1,0 +1,13 @@
+[
+    {
+        "description":"这是Mock接口的Demo",
+        "request":{
+            "uri":"/GetDemo",
+            "method":"get"
+        },
+
+        "response":{
+            "text":"This is Get request"
+        }
+    }
+]

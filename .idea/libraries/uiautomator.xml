@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="uiautomator">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Downloads/android-sdk-macosx/platforms/android-29/uiautomator.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
