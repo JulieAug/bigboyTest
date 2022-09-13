@@ -130,5 +130,4 @@ public class RestClient {
 	public void uploadFile(File file) {
 		this.request.multiPart(file);
 	}
-
 }

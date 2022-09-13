@@ -29,7 +29,8 @@ public class loginTest {
 
     private final String oauthsLoginService = "/appapi/"+basicTest.project+"/"+basicTest.version+"/oauthsLogin";
 
-    private String phone = "18260356798";
+//    private String phone = "18260356798";
+    private String phone = "13812455872";
 //    private String phone = "13262232583";//小明
 
     public static String token;

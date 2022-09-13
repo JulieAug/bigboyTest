@@ -52,13 +52,14 @@ public class bbsTest {
     public void setUp() throws Exception {
 //        token = new loginTest().checkSecurityCodeSTest();
         //18260356798
-        token="eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2MTI0MzM1NTUsInVzZXJJZCI6NTAwMDAwNX0.8b_pua8PfZpUa2k72in6h89pLQDZKAofURoJupJPwtc";
+        token="eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NDA3NDgwMTQsInVzZXJJZCI6NTAwMTAwOH0.du3BjTHhVq878521Db_-ysqfff359vJ3gmTWrOlsiNQdsf";
     }
 
     //发主贴时搜索商品
     public void searchForThread(String keyword,Integer category) throws Exception {
         RestClient rc = new RestClient(basicTest.apiDomain, searchForThreadService);
         rc.setHeader("token",token);
+//        rc.setHeader("cid_v2","");
         rc.params("keyword", keyword);
         rc.params("category", category);//分类 1：高达/2：手办/3：模型/4：乐高（没有值代表全部类型）
         rc.params("pageNum", 1);
@@ -90,10 +91,9 @@ public class bbsTest {
 
     @Test(priority = 1,description = "发布主贴")
     public void addBigBoyThreadInfoTest() throws Exception{
-        for (int i =0;i<1;i++){
+        for (int i =0;i<10;i++){
             addBigBoyThreadInfo();
         }
-
     }
 
 
@@ -101,12 +101,12 @@ public class bbsTest {
         RestClient rc = new RestClient(basicTest.apiDomain,addBigBoyThreadInfoService);
         rc.setHeader("token",token);
         HashMap<String,Object>  map = new HashMap<>();
-        map.put("title","造物App有新活动拉～"+ RandomUtil.getDigits(4));
+        map.put("title","帖子"+ RandomUtil.getDigits(4));
         map.put("content","测试帖子内容\n测试帖子内容\n测试帖子内容\n测试帖子内容\n测试帖子内容\n测试帖子内容\n测试帖子内容\n测试帖子内容\n测试帖子内容\n"+ RandomUtil.getDigits(4));
         List<Object> imgUrlsList = new ArrayList<>();
         for(int i = 0;i<3;i++){
             HashMap<String,Object>  imgUrls = new HashMap<>();
-            imgUrls.put("url","https://bigboy-img.hoopchina.com.cn/manage-img/1610358188_828_width_820_height_512.jpg");
+            imgUrls.put("url","https://img.bigboy.club/manage-img/8333708f-73e9-4b24-a616-5e746b9a95a5_width_1080_height_1101");
             imgUrls.put("height","800");
             imgUrls.put("width","400");
             imgUrlsList.add(imgUrls);
@@ -114,20 +114,20 @@ public class bbsTest {
         map.put("images",imgUrlsList);
 
         //关联商品id
-        List<Object> goodsIdList = new ArrayList<>();
-        for (String keyword : keywords) {
-            for (Integer category : categorys) {
-                searchForThread(keyword, category);    //发主贴时搜索商品
-                goodsIdList.add(goodsId);
-            }
-        }
-        map.put("goodsIds",goodsIdList);
+//        List<Object> goodsIdList = new ArrayList<>();
+//        for (String keyword : keywords) {
+//            for (Integer category : categorys) {
+//                searchForThread(keyword, category);    //发主贴时搜索商品
+//                goodsIdList.add(goodsId);
+//            }
+//        }
+//        map.put("goodsIds",goodsIdList);
 
         //关联展览id
-        List<Object> tradeShowIdList = new ArrayList<>();
-        queryForThread();
-        tradeShowIdList.add(tradeShowId);  //搜索投稿中的展览
-        map.put("tradeShowIds",tradeShowIdList);
+//        List<Object> tradeShowIdList = new ArrayList<>();
+//        queryForThread();
+//        tradeShowIdList.add(tradeShowId);  //搜索投稿中的展览
+//        map.put("tradeShowIds",tradeShowIdList);
 
         rc.body(JSONArray.toJSON(map));
         JSONObject jsonObj = rc.post();

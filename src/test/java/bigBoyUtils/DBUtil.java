@@ -23,7 +23,7 @@ import java.util.Map.Entry;
 public class DBUtil {
     public DBUtil() {
     }
-
+    
     public static void update(String sql, String propertyName, Object... args) {
         Connection connection = null;
         PreparedStatement preparedStatement = null;

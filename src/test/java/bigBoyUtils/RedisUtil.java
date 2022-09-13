@@ -12,11 +12,11 @@ public class RedisUtil {
     /**
      * host
      */
-    private static String ADDR = "192.168.36.3";
+    private static String ADDR = "r-bp1ii43vdlwmr7lj8dpd.redis.rds.aliyuncs.com";
     /**
      * password
      */
-    private static String AUTH = "Ta4OY2SYTcN!@";
+    private static String AUTH = "BIGboy919sit";
     /**
      * port
      */
@@ -37,7 +37,7 @@ public class RedisUtil {
      */
     private static int MAX_IDLE = 200;
 
-    private static int DEFAULT_DATABASE = 2;
+    private static int DEFAULT_DATABASE = 1;
 
 
     static {

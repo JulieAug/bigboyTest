@@ -970,7 +970,7 @@ public class DateUtil{
     public static String getEndTime2(Date param) {
         return sdf_datetime_format2.format(addEndTime(param));
     }
-
+    
     /**
      * 获得当前时间，格式yyyy-MM-dd hh:mm:ss
      *

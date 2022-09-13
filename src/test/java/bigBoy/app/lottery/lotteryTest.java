@@ -52,9 +52,10 @@ public class lotteryTest {
     public void addLotter() throws Exception{
         RestClient rc = new RestClient(basicTest.backendDomain,addLotterService);
         Map<String,Object> map = new HashMap<>();
-        map.put("name","造物抽奖活动"+ RandomUtil.getDigits(4));
-        map.put("startTime", DateUtil.getDateTime());
-        map.put("endTime","2022-01-21 11:00:00");
+        map.put("name","抽奖卡片"+ RandomUtil.getDigits(4));
+//        map.put("startTime", DateUtil.getDateTime());
+        map.put("startTime","2022-02-28 21:00:00");
+        map.put("endTime","2022-03-28 21:00:00");
         map.put("awardGoodsId",207);
         map.put("goodsName","MG MGEX 沙特皇室定制版 独角兽高达 Ver.Ka");
         map.put("awardName",awardName);

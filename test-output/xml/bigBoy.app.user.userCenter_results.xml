@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="bigBoyTestReport"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.182">
+  <properties />
+  
+  
+            <testcase name="queryUserCenterListTest" time="0.182" classname="bigBoy.app.user.userCenter" />
+      
+</testsuite>

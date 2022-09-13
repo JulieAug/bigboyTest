@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="bigBoyTestReport"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="2.131">
+  <properties />
+  
+  
+            <testcase name="addTopicCategoryTest2" time="0.105" classname="bigBoy.test.testFlash" />
+                <testcase name="addTopicCategoryTest" time="2.026" classname="bigBoy.test.testFlash" />
+      
+</testsuite>

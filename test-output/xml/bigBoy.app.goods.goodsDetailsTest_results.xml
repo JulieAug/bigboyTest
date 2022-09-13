@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="bigBoyTestReport"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.419">
+  <properties />
+  
+  
+            <testcase name="associateThreadTest" time="0.085" classname="bigBoy.app.goods.goodsDetailsTest" />
+                <testcase name="queryGoodsShopViewById" time="0.270" classname="bigBoy.app.goods.goodsDetailsTest" />
+                <testcase name="getgoodsCommentsTest" time="0.064" classname="bigBoy.app.goods.goodsDetailsTest" />
+      
+</testsuite>

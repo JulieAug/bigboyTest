@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="bigBoyTestReport"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="1.303">
+  <properties />
+  
+  
+            <testcase name="queryNewsTest" time="0.342" classname="bigBoy.app.homepage.homePageTest" />
+                <testcase name="queryHomePageThreadListTest" time="0.865" classname="bigBoy.app.homepage.homePageTest" />
+                <testcase name="queryHomePageTopTest" time="0.096" classname="bigBoy.app.homepage.homePageTest" />
+      
+</testsuite>

@@ -1,0 +1,1039 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="10" total="93" passed="83">
+  <reporter-output>
+  </reporter-output>
+  <suite name="bigBoyTestReport" duration-ms="47752" started-at="2021-09-02T08:13:11Z" finished-at="2021-09-02T08:13:59Z">
+    <groups>
+    </groups>
+    <test name="bigBoyTestReport" duration-ms="47752" started-at="2021-09-02T08:13:11Z" finished-at="2021-09-02T08:13:59Z">
+      <class name="bigBoy.app.bbs.bbsTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:bigBoy.app.bbs.bbsTest@1990a65e]" name="setUp" is-config="true" duration-ms="479" started-at="2021-09-02T16:13:15Z" finished-at="2021-09-02T16:13:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="addBigBoyThreadInfoTest()[pri:1, instance:bigBoy.app.bbs.bbsTest@1990a65e]" name="addBigBoyThreadInfoTest" duration-ms="2867" started-at="2021-09-02T16:13:15Z" description="发布主贴" finished-at="2021-09-02T16:13:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addBigBoyThreadInfoTest -->
+        <test-method status="FAIL" signature="addBigBoyReplyInfoTest()[pri:2, instance:bigBoy.app.bbs.bbsTest@1990a65e]" name="addBigBoyReplyInfoTest" duration-ms="1" started-at="2021-09-02T16:13:18Z" description="发布回贴" finished-at="2021-09-02T16:13:18Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at bigBoy.app.bbs.bbsTest.addBigBoyReplyInfoTest(bbsTest.java:148)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addBigBoyReplyInfoTest -->
+        <test-method status="PASS" signature="queryThreadInfoTest()[pri:3, instance:bigBoy.app.bbs.bbsTest@1990a65e]" name="queryThreadInfoTest" duration-ms="321" started-at="2021-09-02T16:13:18Z" description="查看某个帖子详情" finished-at="2021-09-02T16:13:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- queryThreadInfoTest -->
+        <test-method status="PASS" signature="queryReplyListTest()[pri:4, instance:bigBoy.app.bbs.bbsTest@1990a65e]" name="queryReplyListTest" duration-ms="73" started-at="2021-09-02T16:13:18Z" description="查看某个帖子的回帖" finished-at="2021-09-02T16:13:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- queryReplyListTest -->
+      </class> <!-- bigBoy.app.bbs.bbsTest -->
+      <class name="bigBoy.backendapi.homepage.showTest">
+        <test-method status="PASS" signature="addShowTest()[pri:1, instance:bigBoy.backendapi.homepage.showTest@704d6e83]" name="addShowTest" duration-ms="158" started-at="2021-09-02T16:13:49Z" finished-at="2021-09-02T16:13:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addShowTest -->
+        <test-method status="PASS" signature="showQueryInfoTest()[pri:2, instance:bigBoy.backendapi.homepage.showTest@704d6e83]" name="showQueryInfoTest" duration-ms="40" started-at="2021-09-02T16:13:49Z" finished-at="2021-09-02T16:13:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- showQueryInfoTest -->
+        <test-method status="PASS" signature="updateShowTest()[pri:3, instance:bigBoy.backendapi.homepage.showTest@704d6e83]" name="updateShowTest" duration-ms="60" started-at="2021-09-02T16:13:49Z" finished-at="2021-09-02T16:13:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateShowTest -->
+        <test-method status="PASS" signature="adddisplayWindowTest()[pri:4, instance:bigBoy.backendapi.homepage.showTest@704d6e83]" name="adddisplayWindowTest" duration-ms="188" started-at="2021-09-02T16:13:49Z" finished-at="2021-09-02T16:13:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adddisplayWindowTest -->
+        <test-method status="PASS" signature="updatedisplayWindowTest()[pri:5, instance:bigBoy.backendapi.homepage.showTest@704d6e83]" name="updatedisplayWindowTest" duration-ms="86" started-at="2021-09-02T16:13:50Z" finished-at="2021-09-02T16:13:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updatedisplayWindowTest -->
+        <test-method status="PASS" signature="addAssociateTest()[pri:6, instance:bigBoy.backendapi.homepage.showTest@704d6e83]" name="addAssociateTest" duration-ms="128" started-at="2021-09-02T16:13:50Z" finished-at="2021-09-02T16:13:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAssociateTest -->
+        <test-method status="PASS" signature="deleteAssociateTest()[pri:7, instance:bigBoy.backendapi.homepage.showTest@704d6e83]" name="deleteAssociateTest" duration-ms="45" started-at="2021-09-02T16:13:50Z" finished-at="2021-09-02T16:13:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteAssociateTest -->
+        <test-method status="PASS" signature="queryAssociateList()[pri:7, instance:bigBoy.backendapi.homepage.showTest@704d6e83]" name="queryAssociateList" duration-ms="99" started-at="2021-09-02T16:13:50Z" finished-at="2021-09-02T16:13:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- queryAssociateList -->
+        <test-method status="PASS" signature="deletedisplayWindowTest()[pri:9, instance:bigBoy.backendapi.homepage.showTest@704d6e83]" name="deletedisplayWindowTest" duration-ms="66" started-at="2021-09-02T16:13:50Z" finished-at="2021-09-02T16:13:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deletedisplayWindowTest -->
+        <test-method status="PASS" signature="deleteShowTest()[pri:10, instance:bigBoy.backendapi.homepage.showTest@704d6e83]" name="deleteShowTest" duration-ms="58" started-at="2021-09-02T16:13:50Z" finished-at="2021-09-02T16:13:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteShowTest -->
+      </class> <!-- bigBoy.backendapi.homepage.showTest -->
+      <class name="bigBoy.app.user.infromTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:bigBoy.app.user.infromTest@25bbf683]" name="setUp" is-config="true" duration-ms="170" started-at="2021-09-02T16:13:19Z" finished-at="2021-09-02T16:13:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="addInformChannelTest()[pri:1, instance:bigBoy.app.user.infromTest@25bbf683]" name="addInformChannelTest" duration-ms="355" started-at="2021-09-02T16:13:19Z" description="举报渠道" finished-at="2021-09-02T16:13:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addInformChannelTest -->
+        <test-method status="PASS" signature="addInformThreadTest()[pri:2, instance:bigBoy.app.user.infromTest@25bbf683]" name="addInformThreadTest" duration-ms="106" started-at="2021-09-02T16:13:19Z" description="举报主贴" finished-at="2021-09-02T16:13:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addInformThreadTest -->
+        <test-method status="PASS" signature="addInformReplyTest()[pri:3, instance:bigBoy.app.user.infromTest@25bbf683]" name="addInformReplyTest" duration-ms="80" started-at="2021-09-02T16:13:20Z" description="举报评论" finished-at="2021-09-02T16:13:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addInformReplyTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:bigBoy.app.user.infromTest@25bbf683]" name="tearDown" is-config="true" duration-ms="99" started-at="2021-09-02T16:13:20Z" finished-at="2021-09-02T16:13:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- bigBoy.app.user.infromTest -->
+      <class name="bigBoy.app.goods.goodsDetailsTest">
+        <test-method status="PASS" signature="queryGoodsShopViewById()[pri:1, instance:bigBoy.app.goods.goodsDetailsTest@544a2ea6]" name="queryGoodsShopViewById" duration-ms="270" started-at="2021-09-02T16:13:45Z" description="查询商品详情" finished-at="2021-09-02T16:13:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- queryGoodsShopViewById -->
+        <test-method status="PASS" signature="getgoodsCommentsTest()[pri:2, instance:bigBoy.app.goods.goodsDetailsTest@544a2ea6]" name="getgoodsCommentsTest" duration-ms="64" started-at="2021-09-02T16:13:45Z" finished-at="2021-09-02T16:13:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getgoodsCommentsTest -->
+        <test-method status="PASS" signature="associateThreadTest()[pri:3, instance:bigBoy.app.goods.goodsDetailsTest@544a2ea6]" name="associateThreadTest" duration-ms="85" started-at="2021-09-02T16:13:45Z" finished-at="2021-09-02T16:13:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- associateThreadTest -->
+      </class> <!-- bigBoy.app.goods.goodsDetailsTest -->
+      <class name="bigBoy.app.goods.goodsTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:bigBoy.app.goods.goodsTest@7276c8cd]" name="setUp" is-config="true" duration-ms="177" started-at="2021-09-02T16:13:20Z" finished-at="2021-09-02T16:13:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="getAllMenuGoodsTest(java.lang.Integer)[pri:1, instance:bigBoy.app.goods.goodsTest@7276c8cd]" name="getAllMenuGoodsTest" duration-ms="114" started-at="2021-09-02T16:13:20Z" description="获取商品分类目录及商品" data-provider="category" finished-at="2021-09-02T16:13:20Z">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllMenuGoodsTest -->
+        <test-method status="PASS" signature="getAllMenuGoodsTest(java.lang.Integer)[pri:1, instance:bigBoy.app.goods.goodsTest@7276c8cd]" name="getAllMenuGoodsTest" duration-ms="77" started-at="2021-09-02T16:13:20Z" description="获取商品分类目录及商品" data-provider="category" finished-at="2021-09-02T16:13:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllMenuGoodsTest -->
+        <test-method status="PASS" signature="getAllMenuGoodsTest(java.lang.Integer)[pri:1, instance:bigBoy.app.goods.goodsTest@7276c8cd]" name="getAllMenuGoodsTest" duration-ms="110" started-at="2021-09-02T16:13:20Z" description="获取商品分类目录及商品" data-provider="category" finished-at="2021-09-02T16:13:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllMenuGoodsTest -->
+        <test-method status="PASS" signature="getAllMenuGoodsTest(java.lang.Integer)[pri:1, instance:bigBoy.app.goods.goodsTest@7276c8cd]" name="getAllMenuGoodsTest" duration-ms="100" started-at="2021-09-02T16:13:21Z" description="获取商品分类目录及商品" data-provider="category" finished-at="2021-09-02T16:13:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllMenuGoodsTest -->
+        <test-method status="PASS" signature="getAllMenuGoodsTest(java.lang.Integer)[pri:1, instance:bigBoy.app.goods.goodsTest@7276c8cd]" name="getAllMenuGoodsTest" duration-ms="67" started-at="2021-09-02T16:13:21Z" description="获取商品分类目录及商品" data-provider="category" finished-at="2021-09-02T16:13:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllMenuGoodsTest -->
+        <test-method status="PASS" signature="getChannelInfoTest()[pri:2, instance:bigBoy.app.goods.goodsTest@7276c8cd]" name="getChannelInfoTest" duration-ms="276" started-at="2021-09-02T16:13:21Z" description="查询渠道店铺详情" finished-at="2021-09-02T16:13:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getChannelInfoTest -->
+        <test-method status="PASS" signature="getCollectionInfoTest(java.lang.String, java.math.BigInteger)[pri:3, instance:bigBoy.app.goods.goodsTest@7276c8cd]" name="getCollectionInfoTest" duration-ms="86" started-at="2021-09-02T16:13:21Z" description="查询聚合页详情" data-provider="collection" finished-at="2021-09-02T16:13:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ips]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCollectionInfoTest -->
+        <test-method status="PASS" signature="getCollectionInfoTest(java.lang.String, java.math.BigInteger)[pri:3, instance:bigBoy.app.goods.goodsTest@7276c8cd]" name="getCollectionInfoTest" duration-ms="56" started-at="2021-09-02T16:13:21Z" description="查询聚合页详情" data-provider="collection" finished-at="2021-09-02T16:13:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[series]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCollectionInfoTest -->
+        <test-method status="PASS" signature="getCollectionInfoTest(java.lang.String, java.math.BigInteger)[pri:3, instance:bigBoy.app.goods.goodsTest@7276c8cd]" name="getCollectionInfoTest" duration-ms="66" started-at="2021-09-02T16:13:21Z" description="查询聚合页详情" data-provider="collection" finished-at="2021-09-02T16:13:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[factory]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCollectionInfoTest -->
+        <test-method status="PASS" signature="getCommentsByChannelTest()[pri:4, instance:bigBoy.app.goods.goodsTest@7276c8cd]" name="getCommentsByChannelTest" duration-ms="320" started-at="2021-09-02T16:13:21Z" description="查询渠道店铺评论列表" finished-at="2021-09-02T16:13:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCommentsByChannelTest -->
+        <test-method status="PASS" signature="getFlowTest()[pri:5, instance:bigBoy.app.goods.goodsTest@7276c8cd]" name="getFlowTest" duration-ms="2480" started-at="2021-09-02T16:13:22Z" description="获取目录下的商品" finished-at="2021-09-02T16:13:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFlowTest -->
+        <test-method status="PASS" signature="getGoodsByCollectionTest()[pri:6, instance:bigBoy.app.goods.goodsTest@7276c8cd]" name="getGoodsByCollectionTest" duration-ms="5831" started-at="2021-09-02T16:13:24Z" description="查询聚合页商品列表" finished-at="2021-09-02T16:13:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getGoodsByCollectionTest -->
+        <test-method status="PASS" signature="getRecommendListTest(java.lang.Integer)[pri:7, instance:bigBoy.app.goods.goodsTest@7276c8cd]" name="getRecommendListTest" duration-ms="351" started-at="2021-09-02T16:13:30Z" description="获取商品推荐列表" data-provider="category" finished-at="2021-09-02T16:13:30Z">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getRecommendListTest -->
+        <test-method status="PASS" signature="getRecommendListTest(java.lang.Integer)[pri:7, instance:bigBoy.app.goods.goodsTest@7276c8cd]" name="getRecommendListTest" duration-ms="217" started-at="2021-09-02T16:13:30Z" description="获取商品推荐列表" data-provider="category" finished-at="2021-09-02T16:13:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getRecommendListTest -->
+        <test-method status="PASS" signature="getRecommendListTest(java.lang.Integer)[pri:7, instance:bigBoy.app.goods.goodsTest@7276c8cd]" name="getRecommendListTest" duration-ms="298" started-at="2021-09-02T16:13:31Z" description="获取商品推荐列表" data-provider="category" finished-at="2021-09-02T16:13:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getRecommendListTest -->
+        <test-method status="PASS" signature="getRecommendListTest(java.lang.Integer)[pri:7, instance:bigBoy.app.goods.goodsTest@7276c8cd]" name="getRecommendListTest" duration-ms="172" started-at="2021-09-02T16:13:31Z" description="获取商品推荐列表" data-provider="category" finished-at="2021-09-02T16:13:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getRecommendListTest -->
+        <test-method status="PASS" signature="getRecommendListTest(java.lang.Integer)[pri:7, instance:bigBoy.app.goods.goodsTest@7276c8cd]" name="getRecommendListTest" duration-ms="160" started-at="2021-09-02T16:13:31Z" description="获取商品推荐列表" data-provider="category" finished-at="2021-09-02T16:13:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getRecommendListTest -->
+        <test-method status="PASS" signature="hotSearchKeywordsTest()[pri:8, instance:bigBoy.app.goods.goodsTest@7276c8cd]" name="hotSearchKeywordsTest" duration-ms="72" started-at="2021-09-02T16:13:31Z" description="热搜关键词" finished-at="2021-09-02T16:13:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hotSearchKeywordsTest -->
+        <test-method status="PASS" signature="searchByKeywordsTest()[pri:9, instance:bigBoy.app.goods.goodsTest@7276c8cd]" name="searchByKeywordsTest" duration-ms="13269" started-at="2021-09-02T16:13:31Z" description="根据关键词搜索商品" finished-at="2021-09-02T16:13:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchByKeywordsTest -->
+      </class> <!-- bigBoy.app.goods.goodsTest -->
+      <class name="bigBoy.backendapi.goods.goodsTest">
+        <test-method status="PASS" signature="queryGoodsInfoByIdTest()[pri:1, instance:bigBoy.backendapi.goods.goodsTest@43a0cee9]" name="queryGoodsInfoByIdTest" duration-ms="52" started-at="2021-09-02T16:13:50Z" finished-at="2021-09-02T16:13:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- queryGoodsInfoByIdTest -->
+        <test-method status="PASS" signature="searchGoodsTest()[pri:2, instance:bigBoy.backendapi.goods.goodsTest@43a0cee9]" name="searchGoodsTest" duration-ms="132" started-at="2021-09-02T16:13:50Z" finished-at="2021-09-02T16:13:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchGoodsTest -->
+        <test-method status="PASS" signature="searchByCategoryTest()[pri:3, instance:bigBoy.backendapi.goods.goodsTest@43a0cee9]" name="searchByCategoryTest" duration-ms="139" started-at="2021-09-02T16:13:50Z" finished-at="2021-09-02T16:13:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchByCategoryTest -->
+        <test-method status="PASS" signature="searchGoodsByFactoryIdTest()[pri:4, instance:bigBoy.backendapi.goods.goodsTest@43a0cee9]" name="searchGoodsByFactoryIdTest" duration-ms="427" started-at="2021-09-02T16:13:50Z" finished-at="2021-09-02T16:13:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchGoodsByFactoryIdTest -->
+        <test-method status="PASS" signature="updateSeriesTest()[pri:5, instance:bigBoy.backendapi.goods.goodsTest@43a0cee9]" name="updateSeriesTest" duration-ms="153" started-at="2021-09-02T16:13:51Z" finished-at="2021-09-02T16:13:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateSeriesTest -->
+        <test-method status="PASS" signature="updateGoodsInfo()[pri:6, instance:bigBoy.backendapi.goods.goodsTest@43a0cee9]" name="updateGoodsInfo" duration-ms="980" started-at="2021-09-02T16:13:51Z" finished-at="2021-09-02T16:13:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateGoodsInfo -->
+        <test-method status="PASS" signature="updateGoodsPics()[pri:8, instance:bigBoy.backendapi.goods.goodsTest@43a0cee9]" name="updateGoodsPics" duration-ms="259" started-at="2021-09-02T16:13:52Z" finished-at="2021-09-02T16:13:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateGoodsPics -->
+        <test-method status="PASS" signature="updateGoodsStatus()[pri:9, instance:bigBoy.backendapi.goods.goodsTest@43a0cee9]" name="updateGoodsStatus" duration-ms="121" started-at="2021-09-02T16:13:52Z" finished-at="2021-09-02T16:13:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateGoodsStatus -->
+        <test-method status="PASS" signature="goodsCommentsOnlineTest()[pri:10, instance:bigBoy.backendapi.goods.goodsTest@43a0cee9]" name="goodsCommentsOnlineTest" duration-ms="78" started-at="2021-09-02T16:13:52Z" finished-at="2021-09-02T16:13:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goodsCommentsOnlineTest -->
+        <test-method status="FAIL" signature="addChannelTest()[pri:11, instance:bigBoy.backendapi.goods.goodsTest@43a0cee9]" name="addChannelTest" duration-ms="327" started-at="2021-09-02T16:13:52Z" finished-at="2021-09-02T16:13:53Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [SUCCESS] but found [FAIL]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [SUCCESS] but found [FAIL]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at org.testng.Assert.assertEquals(Assert.java:200)
+	at bigBoy.backendapi.goods.goodsTest.addChannelTest(goodsTest.java:213)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addChannelTest -->
+      </class> <!-- bigBoy.backendapi.goods.goodsTest -->
+      <class name="bigBoy.app.order.receiveAddressTest">
+        <test-method status="FAIL" signature="addAddressTest()[pri:1, instance:bigBoy.app.order.receiveAddressTest@4524411f]" name="addAddressTest" duration-ms="61" started-at="2021-09-02T16:13:47Z" description="添加收货地址" finished-at="2021-09-02T16:13:47Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [SUCCESS] but found [DISABLED_LOGIN]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [SUCCESS] but found [DISABLED_LOGIN]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at org.testng.Assert.assertEquals(Assert.java:200)
+	at bigBoy.app.order.receiveAddressTest.addAddressTest(receiveAddressTest.java:62)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAddressTest -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:bigBoy.app.order.receiveAddressTest@4524411f]" name="setUp" is-config="true" duration-ms="0" started-at="2021-09-02T16:13:47Z" finished-at="2021-09-02T16:13:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="updateAddressTest()[pri:2, instance:bigBoy.app.order.receiveAddressTest@4524411f]" name="updateAddressTest" duration-ms="51" started-at="2021-09-02T16:13:47Z" description="修改收货地址" finished-at="2021-09-02T16:13:47Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [SUCCESS] but found [DISABLED_LOGIN]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [SUCCESS] but found [DISABLED_LOGIN]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at org.testng.Assert.assertEquals(Assert.java:200)
+	at bigBoy.app.order.receiveAddressTest.updateAddressTest(receiveAddressTest.java:79)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateAddressTest -->
+        <test-method status="FAIL" signature="queryListTest()[pri:3, instance:bigBoy.app.order.receiveAddressTest@4524411f]" name="queryListTest" duration-ms="50" started-at="2021-09-02T16:13:47Z" description="查询收货地址列表" finished-at="2021-09-02T16:13:47Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [SUCCESS] but found [DISABLED_LOGIN]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [SUCCESS] but found [DISABLED_LOGIN]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at org.testng.Assert.assertEquals(Assert.java:200)
+	at bigBoy.app.order.receiveAddressTest.queryListTest(receiveAddressTest.java:90)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- queryListTest -->
+      </class> <!-- bigBoy.app.order.receiveAddressTest -->
+      <class name="bigBoy.backendapi.homepage.carouseImgTest">
+        <test-method status="PASS" signature="addCarouseTest()[pri:1, instance:bigBoy.backendapi.homepage.carouseImgTest@401e7803]" name="addCarouseTest" duration-ms="183" started-at="2021-09-02T16:13:47Z" finished-at="2021-09-02T16:13:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCarouseTest -->
+        <test-method status="PASS" signature="updateCarouseTest()[pri:2, instance:bigBoy.backendapi.homepage.carouseImgTest@401e7803]" name="updateCarouseTest" duration-ms="245" started-at="2021-09-02T16:13:47Z" finished-at="2021-09-02T16:13:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateCarouseTest -->
+        <test-method status="PASS" signature="queryCarouseListTest()[pri:3, instance:bigBoy.backendapi.homepage.carouseImgTest@401e7803]" name="queryCarouseListTest" duration-ms="33" started-at="2021-09-02T16:13:47Z" finished-at="2021-09-02T16:13:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- queryCarouseListTest -->
+        <test-method status="PASS" signature="queryTopInfoTest()[pri:4, instance:bigBoy.backendapi.homepage.carouseImgTest@401e7803]" name="queryTopInfoTest" duration-ms="95" started-at="2021-09-02T16:13:47Z" finished-at="2021-09-02T16:13:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- queryTopInfoTest -->
+        <test-method status="PASS" signature="deleteCarouseTest()[pri:5, instance:bigBoy.backendapi.homepage.carouseImgTest@401e7803]" name="deleteCarouseTest" duration-ms="66" started-at="2021-09-02T16:13:47Z" finished-at="2021-09-02T16:13:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteCarouseTest -->
+      </class> <!-- bigBoy.backendapi.homepage.carouseImgTest -->
+      <class name="bigBoy.app.homepage.homePageTest">
+        <test-method status="PASS" signature="queryHomePageTopTest()[pri:1, instance:bigBoy.app.homepage.homePageTest@42607a4f]" name="queryHomePageTopTest" duration-ms="96" started-at="2021-09-02T16:13:13Z" description="查询首页轮播图&amp;热门商品" finished-at="2021-09-02T16:13:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- queryHomePageTopTest -->
+        <test-method status="PASS" signature="queryHomePageThreadListTest()[pri:2, instance:bigBoy.app.homepage.homePageTest@42607a4f]" name="queryHomePageThreadListTest" duration-ms="865" started-at="2021-09-02T16:13:13Z" description="查询首页帖子列表" finished-at="2021-09-02T16:13:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- queryHomePageThreadListTest -->
+        <test-method status="PASS" signature="queryNewsTest()[pri:3, instance:bigBoy.app.homepage.homePageTest@42607a4f]" name="queryNewsTest" duration-ms="342" started-at="2021-09-02T16:13:14Z" description="查询资讯列表" finished-at="2021-09-02T16:13:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- queryNewsTest -->
+      </class> <!-- bigBoy.app.homepage.homePageTest -->
+      <class name="bigBoy.backendapi.homepage.hotGoodsTest">
+        <test-method status="PASS" signature="addHotGoodsTest()[pri:1, instance:bigBoy.backendapi.homepage.hotGoodsTest@10dba097]" name="addHotGoodsTest" duration-ms="182" started-at="2021-09-02T16:13:48Z" finished-at="2021-09-02T16:13:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addHotGoodsTest -->
+        <test-method status="PASS" signature="updateHotGoodsTest(java.lang.Number)[pri:2, instance:bigBoy.backendapi.homepage.hotGoodsTest@10dba097]" name="updateHotGoodsTest" duration-ms="352" started-at="2021-09-02T16:13:48Z" data-provider="status" finished-at="2021-09-02T16:13:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateHotGoodsTest -->
+        <test-method status="PASS" signature="updateHotGoodsTest(java.lang.Number)[pri:2, instance:bigBoy.backendapi.homepage.hotGoodsTest@10dba097]" name="updateHotGoodsTest" duration-ms="376" started-at="2021-09-02T16:13:48Z" data-provider="status" finished-at="2021-09-02T16:13:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateHotGoodsTest -->
+        <test-method status="PASS" signature="updateHotGoodsTest(java.lang.Number)[pri:2, instance:bigBoy.backendapi.homepage.hotGoodsTest@10dba097]" name="updateHotGoodsTest" duration-ms="223" started-at="2021-09-02T16:13:48Z" data-provider="status" finished-at="2021-09-02T16:13:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateHotGoodsTest -->
+        <test-method status="PASS" signature="queryHotGoodsListTest()[pri:3, instance:bigBoy.backendapi.homepage.hotGoodsTest@10dba097]" name="queryHotGoodsListTest" duration-ms="29" started-at="2021-09-02T16:13:49Z" finished-at="2021-09-02T16:13:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- queryHotGoodsListTest -->
+        <test-method status="PASS" signature="deleteHotGoodsTest()[pri:4, instance:bigBoy.backendapi.homepage.hotGoodsTest@10dba097]" name="deleteHotGoodsTest" duration-ms="55" started-at="2021-09-02T16:13:49Z" finished-at="2021-09-02T16:13:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteHotGoodsTest -->
+      </class> <!-- bigBoy.backendapi.homepage.hotGoodsTest -->
+      <class name="bigBoy.app.goods.timelineTest">
+        <test-method status="PASS" signature="timelineTest()[pri:1, instance:bigBoy.app.goods.timelineTest@2e3fc542]" name="timelineTest" duration-ms="358" started-at="2021-09-02T16:13:45Z" description="查询指定月份的发售时间线" finished-at="2021-09-02T16:13:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- timelineTest -->
+      </class> <!-- bigBoy.app.goods.timelineTest -->
+      <class name="bigBoy.app.homepage.appVersionTest">
+        <test-method status="PASS" signature="queryLastInfoTest()[pri:1, instance:bigBoy.app.homepage.appVersionTest@18bf3d14]" name="queryLastInfoTest" duration-ms="1749" started-at="2021-09-02T16:13:11Z" description="查询版本最新信息" finished-at="2021-09-02T16:13:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- queryLastInfoTest -->
+      </class> <!-- bigBoy.app.homepage.appVersionTest -->
+      <class name="bigBoy.app.user.loginTest">
+        <test-method status="PASS" signature="sendSecurityCodeTest()[pri:1, instance:bigBoy.app.user.loginTest@782663d3]" name="sendSecurityCodeTest" duration-ms="395" started-at="2021-09-02T16:13:14Z" description="发送短信验证码" finished-at="2021-09-02T16:13:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendSecurityCodeTest -->
+      </class> <!-- bigBoy.app.user.loginTest -->
+      <class name="bigBoy.backendapi.hotSearchKeywordsTest">
+        <test-method status="PASS" signature="addHotSearchKeywordsTest()[pri:1, instance:bigBoy.backendapi.hotSearchKeywordsTest@2eda0940]" name="addHotSearchKeywordsTest" duration-ms="252" started-at="2021-09-02T16:13:58Z" finished-at="2021-09-02T16:13:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addHotSearchKeywordsTest -->
+        <test-method status="PASS" signature="updateHotSearchKeywordsTest()[pri:2, instance:bigBoy.backendapi.hotSearchKeywordsTest@2eda0940]" name="updateHotSearchKeywordsTest" duration-ms="267" started-at="2021-09-02T16:13:59Z" finished-at="2021-09-02T16:13:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateHotSearchKeywordsTest -->
+        <test-method status="PASS" signature="queryHotSearchKeywordsListTest()[pri:3, instance:bigBoy.backendapi.hotSearchKeywordsTest@2eda0940]" name="queryHotSearchKeywordsListTest" duration-ms="29" started-at="2021-09-02T16:13:59Z" finished-at="2021-09-02T16:13:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- queryHotSearchKeywordsListTest -->
+        <test-method status="PASS" signature="deleteHotSearchKeywordsTest()[pri:4, instance:bigBoy.backendapi.hotSearchKeywordsTest@2eda0940]" name="deleteHotSearchKeywordsTest" duration-ms="53" started-at="2021-09-02T16:13:59Z" finished-at="2021-09-02T16:13:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteHotSearchKeywordsTest -->
+      </class> <!-- bigBoy.backendapi.hotSearchKeywordsTest -->
+      <class name="bigBoy.app.lottery.lotteryTest">
+        <test-method status="PASS" signature="addLotter()[pri:1, instance:bigBoy.app.lottery.lotteryTest@150c158]" name="addLotter" duration-ms="860" started-at="2021-09-02T16:13:45Z" finished-at="2021-09-02T16:13:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addLotter -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:bigBoy.app.lottery.lotteryTest@150c158]" name="setUp" is-config="true" duration-ms="0" started-at="2021-09-02T16:13:45Z" finished-at="2021-09-02T16:13:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="listTest()[pri:2, instance:bigBoy.app.lottery.lotteryTest@150c158]" name="listTest" duration-ms="101" started-at="2021-09-02T16:13:46Z" description="查看H5抽奖页面" finished-at="2021-09-02T16:13:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- listTest -->
+        <test-method status="FAIL" signature="infoTest()[pri:3, instance:bigBoy.app.lottery.lotteryTest@150c158]" name="infoTest" duration-ms="113" started-at="2021-09-02T16:13:46Z" description="查看指定抽奖的信息" finished-at="2021-09-02T16:13:47Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [SUCCESS] but found [FAIL]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [SUCCESS] but found [FAIL]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at org.testng.Assert.assertEquals(Assert.java:200)
+	at bigBoy.app.lottery.lotteryTest.infoTest(lotteryTest.java:98)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- infoTest -->
+        <test-method status="FAIL" signature="drawTest()[pri:4, instance:bigBoy.app.lottery.lotteryTest@150c158]" name="drawTest" duration-ms="59" started-at="2021-09-02T16:13:47Z" description="参与抽奖" finished-at="2021-09-02T16:13:47Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [SUCCESS] but found [USER_NOT_FOUND]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [SUCCESS] but found [USER_NOT_FOUND]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at org.testng.Assert.assertEquals(Assert.java:200)
+	at bigBoy.app.lottery.lotteryTest.drawTest(lotteryTest.java:116)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- drawTest -->
+        <test-method status="FAIL" signature="shareTest()[pri:5, instance:bigBoy.app.lottery.lotteryTest@150c158]" name="shareTest" duration-ms="60" started-at="2021-09-02T16:13:47Z" description="分享抽奖" finished-at="2021-09-02T16:13:47Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [SUCCESS] but found [USER_NOT_FOUND]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [SUCCESS] but found [USER_NOT_FOUND]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at org.testng.Assert.assertEquals(Assert.java:200)
+	at bigBoy.app.lottery.lotteryTest.shareTest(lotteryTest.java:134)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shareTest -->
+        <test-method status="PASS" signature="queryAllTest(java.lang.Integer)[pri:6, instance:bigBoy.app.lottery.lotteryTest@150c158]" name="queryAllTest" duration-ms="68" started-at="2021-09-02T16:13:47Z" description="查看全部/我的抽奖" data-provider="type" finished-at="2021-09-02T16:13:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- queryAllTest -->
+        <test-method status="PASS" signature="queryAllTest(java.lang.Integer)[pri:6, instance:bigBoy.app.lottery.lotteryTest@150c158]" name="queryAllTest" duration-ms="58" started-at="2021-09-02T16:13:47Z" description="查看全部/我的抽奖" data-provider="type" finished-at="2021-09-02T16:13:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- queryAllTest -->
+      </class> <!-- bigBoy.app.lottery.lotteryTest -->
+      <class name="bigBoy.app.user.userCenter">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:bigBoy.app.user.userCenter@6ec8211c]" name="setUp" is-config="true" duration-ms="167" started-at="2021-09-02T16:13:20Z" finished-at="2021-09-02T16:13:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="queryUserCenterListTest()[pri:0, instance:bigBoy.app.user.userCenter@6ec8211c]" name="queryUserCenterListTest" duration-ms="182" started-at="2021-09-02T16:13:20Z" finished-at="2021-09-02T16:13:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- queryUserCenterListTest -->
+      </class> <!-- bigBoy.app.user.userCenter -->
+      <class name="bigBoy.backendapi.goods.goodsAssociateTest">
+        <test-method status="PASS" signature="associateTest(int, long)[pri:1, instance:bigBoy.backendapi.goods.goodsAssociateTest@1786f9d5]" name="associateTest" duration-ms="236" started-at="2021-09-02T16:13:49Z" data-provider="associate" finished-at="2021-09-02T16:13:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[702]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- associateTest -->
+        <test-method status="FAIL" signature="associateTest(int, long)[pri:1, instance:bigBoy.backendapi.goods.goodsAssociateTest@1786f9d5]" name="associateTest" duration-ms="1" started-at="2021-09-02T16:13:49Z" data-provider="associate" finished-at="2021-09-02T16:13:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[100002993]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[argument type mismatch]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: argument type mismatch
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- associateTest -->
+      </class> <!-- bigBoy.backendapi.goods.goodsAssociateTest -->
+      <class name="bigBoy.backendapi.goods.collectionsTest">
+        <test-method status="PASS" signature="collectionTest(java.lang.String)[pri:1, instance:bigBoy.backendapi.goods.collectionsTest@eb21112]" name="collectionTest" duration-ms="1814" started-at="2021-09-02T16:13:53Z" data-provider="collectionType" finished-at="2021-09-02T16:13:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ips]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- collectionTest -->
+        <test-method status="PASS" signature="collectionTest(java.lang.String)[pri:1, instance:bigBoy.backendapi.goods.collectionsTest@eb21112]" name="collectionTest" duration-ms="2012" started-at="2021-09-02T16:13:55Z" data-provider="collectionType" finished-at="2021-09-02T16:13:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[series]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- collectionTest -->
+        <test-method status="PASS" signature="collectionTest(java.lang.String)[pri:1, instance:bigBoy.backendapi.goods.collectionsTest@eb21112]" name="collectionTest" duration-ms="1514" started-at="2021-09-02T16:13:57Z" data-provider="collectionType" finished-at="2021-09-02T16:13:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[factory]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- collectionTest -->
+        <test-method status="PASS" signature="searchCollection(java.lang.String)[pri:2, instance:bigBoy.backendapi.goods.collectionsTest@eb21112]" name="searchCollection" duration-ms="48" started-at="2021-09-02T16:13:58Z" data-provider="category" finished-at="2021-09-02T16:13:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[高达]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchCollection -->
+        <test-method status="PASS" signature="searchCollection(java.lang.String)[pri:2, instance:bigBoy.backendapi.goods.collectionsTest@eb21112]" name="searchCollection" duration-ms="41" started-at="2021-09-02T16:13:58Z" data-provider="category" finished-at="2021-09-02T16:13:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[乐高]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchCollection -->
+        <test-method status="PASS" signature="searchCollection(java.lang.String)[pri:2, instance:bigBoy.backendapi.goods.collectionsTest@eb21112]" name="searchCollection" duration-ms="72" started-at="2021-09-02T16:13:58Z" data-provider="category" finished-at="2021-09-02T16:13:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[手办]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchCollection -->
+        <test-method status="PASS" signature="searchCollection(java.lang.String)[pri:2, instance:bigBoy.backendapi.goods.collectionsTest@eb21112]" name="searchCollection" duration-ms="34" started-at="2021-09-02T16:13:58Z" data-provider="category" finished-at="2021-09-02T16:13:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[模型]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchCollection -->
+      </class> <!-- bigBoy.backendapi.goods.collectionsTest -->
+      <class name="bigBoy.app.homepage.lastInfo">
+        <test-method status="PASS" signature="queryLastInfoTest()[pri:1, instance:bigBoy.app.homepage.lastInfo@4fb64261]" name="queryLastInfoTest" duration-ms="85" started-at="2021-09-02T16:13:13Z" description="查询开机广告图" finished-at="2021-09-02T16:13:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- queryLastInfoTest -->
+      </class> <!-- bigBoy.app.homepage.lastInfo -->
+      <class name="bigBoy.app.bbs.tradeShowTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:bigBoy.app.bbs.tradeShowTest@64485a47]" name="setUp" is-config="true" duration-ms="178" started-at="2021-09-02T16:13:18Z" finished-at="2021-09-02T16:13:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="queryAppTradeShowListTest()[pri:1, instance:bigBoy.app.bbs.tradeShowTest@64485a47]" name="queryAppTradeShowListTest" duration-ms="154" started-at="2021-09-02T16:13:19Z" description="查询展览列表" finished-at="2021-09-02T16:13:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- queryAppTradeShowListTest -->
+        <test-method status="FAIL" signature="queryDisplayWindowDetailTest()[pri:2, instance:bigBoy.app.bbs.tradeShowTest@64485a47]" name="queryDisplayWindowDetailTest" duration-ms="69" started-at="2021-09-02T16:13:19Z" description="查询某个展览下的橱窗作品" finished-at="2021-09-02T16:13:19Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [SUCCESS] but found [ALERT_MESSAGE]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [SUCCESS] but found [ALERT_MESSAGE]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at org.testng.Assert.assertEquals(Assert.java:200)
+	at bigBoy.app.bbs.tradeShowTest.queryDisplayWindowDetailTest(tradeShowTest.java:56)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- queryDisplayWindowDetailTest -->
+      </class> <!-- bigBoy.app.bbs.tradeShowTest -->
+    </test> <!-- bigBoyTestReport -->
+  </suite> <!-- bigBoyTestReport -->
+</testng-results>

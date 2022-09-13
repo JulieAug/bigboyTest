@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [bigBoyTestReport]">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test verbose="2" name="bigBoyTestReport">
+    <classes>
+      <class name="bigBoy.app.homepage.appVersionTest"/>
+      <class name="bigBoy.app.homepage.lastInfo"/>
+      <class name="bigBoy.app.homepage.homePageTest"/>
+      <class name="bigBoy.app.user.loginTest"/>
+      <class name="bigBoy.app.bbs.bbsTest"/>
+      <class name="bigBoy.app.bbs.tradeShowTest"/>
+      <class name="bigBoy.app.user.infromTest"/>
+      <class name="bigBoy.app.user.userCenter"/>
+      <class name="bigBoy.app.goods.goodsTest"/>
+      <class name="bigBoy.app.goods.goodsDetailsTest"/>
+      <class name="bigBoy.app.goods.timelineTest"/>
+      <class name="bigBoy.app.lottery.lotteryTest"/>
+      <class name="bigBoy.app.order.receiveAddressTest"/>
+      <class name="bigBoy.backendapi.homepage.carouseImgTest"/>
+      <class name="bigBoy.backendapi.homepage.hotGoodsTest"/>
+      <class name="bigBoy.backendapi.goods.goodsAssociateTest"/>
+      <class name="bigBoy.backendapi.homepage.showTest"/>
+      <class name="bigBoy.backendapi.goods.goodsTest"/>
+      <class name="bigBoy.backendapi.goods.collectionsTest"/>
+      <class name="bigBoy.backendapi.hotSearchKeywordsTest"/>
+    </classes>
+  </test> <!-- bigBoyTestReport -->
+  <test name="bigBoyTestReport(failed)">
+    <classes>
+      <class name="bigBoy.app.bbs.bbsTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="addBigBoyReplyInfoTest"/>
+        </methods>
+      </class> <!-- bigBoy.app.bbs.bbsTest -->
+      <class name="bigBoy.backendapi.goods.goodsAssociateTest">
+        <methods>
+          <include name="associateTest" invocation-numbers="1"/>
+        </methods>
+      </class> <!-- bigBoy.backendapi.goods.goodsAssociateTest -->
+      <class name="bigBoy.app.lottery.lotteryTest">
+        <methods>
+          <include name="infoTest"/>
+          <include name="shareTest"/>
+          <include name="drawTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- bigBoy.app.lottery.lotteryTest -->
+      <class name="bigBoy.app.goods.goodsTest">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- bigBoy.app.goods.goodsTest -->
+      <class name="bigBoy.backendapi.goods.goodsTest">
+        <methods>
+          <include name="addChannelTest"/>
+        </methods>
+      </class> <!-- bigBoy.backendapi.goods.goodsTest -->
+      <class name="bigBoy.app.user.infromTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- bigBoy.app.user.infromTest -->
+      <class name="bigBoy.app.user.userCenter">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- bigBoy.app.user.userCenter -->
+      <class name="bigBoy.app.order.receiveAddressTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="addAddressTest"/>
+          <include name="queryListTest"/>
+          <include name="updateAddressTest"/>
+        </methods>
+      </class> <!-- bigBoy.app.order.receiveAddressTest -->
+      <class name="bigBoy.app.bbs.tradeShowTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="queryDisplayWindowDetailTest"/>
+        </methods>
+      </class> <!-- bigBoy.app.bbs.tradeShowTest -->
+    </classes>
+  </test> <!-- bigBoyTestReport(failed) -->
+</suite> <!-- Failed suite [bigBoyTestReport] -->

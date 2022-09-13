@@ -1,0 +1,2839 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 10 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-bigBoyTestReport">
+              <span class="suite-name border-failed">bigBoyTestReport</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-bigBoyTestReport">
+                    <span>testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-bigBoyTestReport">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-bigBoyTestReport">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-bigBoyTestReport">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-bigBoyTestReport">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-bigBoyTestReport">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-bigBoyTestReport">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">93 methods, 10 failed,   83 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-bigBoyTestReport" class="hide-methods failed suite-bigBoyTestReport"> (hide)</a> <!-- hide-methods failed suite-bigBoyTestReport -->
+                      <a href="#" panel-name="suite-bigBoyTestReport" class="show-methods failed suite-bigBoyTestReport"> (show)</a> <!-- show-methods failed suite-bigBoyTestReport -->
+                    </span>
+                    <div class="method-list-content failed suite-bigBoyTestReport">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-bigBoyTestReport" title="bigBoy.app.order.receiveAddressTest" hash-for-method="addAddressTest">addAddressTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-bigBoyTestReport" title="bigBoy.app.bbs.bbsTest" hash-for-method="addBigBoyReplyInfoTest">addBigBoyReplyInfoTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-bigBoyTestReport" title="bigBoy.backendapi.goods.goodsTest" hash-for-method="addChannelTest">addChannelTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-bigBoyTestReport" title="bigBoy.backendapi.goods.goodsAssociateTest" hash-for-method="associateTest(0, 100002993)">associateTest(0, 100002993)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-bigBoyTestReport" title="bigBoy.app.lottery.lotteryTest" hash-for-method="drawTest">drawTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-bigBoyTestReport" title="bigBoy.app.lottery.lotteryTest" hash-for-method="infoTest">infoTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-bigBoyTestReport" title="bigBoy.app.bbs.tradeShowTest" hash-for-method="queryDisplayWindowDetailTest">queryDisplayWindowDetailTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-bigBoyTestReport" title="bigBoy.app.order.receiveAddressTest" hash-for-method="queryListTest">queryListTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-bigBoyTestReport" title="bigBoy.app.lottery.lotteryTest" hash-for-method="shareTest">shareTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-bigBoyTestReport" title="bigBoy.app.order.receiveAddressTest" hash-for-method="updateAddressTest">updateAddressTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-bigBoyTestReport -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-bigBoyTestReport" class="hide-methods passed suite-bigBoyTestReport"> (hide)</a> <!-- hide-methods passed suite-bigBoyTestReport -->
+                      <a href="#" panel-name="suite-bigBoyTestReport" class="show-methods passed suite-bigBoyTestReport"> (show)</a> <!-- show-methods passed suite-bigBoyTestReport -->
+                    </span>
+                    <div class="method-list-content passed suite-bigBoyTestReport">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-bigBoyTestReport" title="bigBoy.backendapi.homepage.showTest" hash-for-method="addAssociateTest">addAssociateTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-bigBoyTestReport" title="bigBoy.app.bbs.bbsTest" hash-for-method="addBigBoyThreadInfoTest">addBigBoyThreadInfoTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-bigBoyTestReport" title="bigBoy.backendapi.homepage.carouseImgTest" hash-for-method="addCarouseTest">addCarouseTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-bigBoyTestReport" title="bigBoy.backendapi.homepage.hotGoodsTest" hash-for-method="addHotGoodsTest">addHotGoodsTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-bigBoyTestReport" title="bigBoy.backendapi.hotSearchKeywordsTest" hash-for-method="addHotSearchKeywordsTest">addHotSearchKeywordsTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-bigBoyTestReport" title="bigBoy.app.user.infromTest" hash-for-method="addInformChannelTest">addInformChannelTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-bigBoyTestReport" title="bigBoy.app.user.infromTest" hash-for-method="addInformReplyTest">addInformReplyTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-bigBoyTestReport" title="bigBoy.app.user.infromTest" hash-for-method="addInformThreadTest">addInformThreadTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-bigBoyTestReport" title="bigBoy.app.lottery.lotteryTest" hash-for-method="addLotter">addLotter</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-bigBoyTestReport" title="bigBoy.backendapi.homepage.showTest" hash-for-method="addShowTest">addShowTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-bigBoyTestReport" title="bigBoy.backendapi.homepage.showTest" hash-for-method="adddisplayWindowTest">adddisplayWindowTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-bigBoyTestReport" title="bigBoy.backendapi.goods.goodsAssociateTest" hash-for-method="associateTest(1, 702)">associateTest(1, 702)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-bigBoyTestReport" title="bigBoy.app.goods.goodsDetailsTest" hash-for-method="associateThreadTest">associateThreadTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-bigBoyTestReport" title="bigBoy.backendapi.goods.collectionsTest" hash-for-method="collectionTest(ips)">collectionTest(ips)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-bigBoyTestReport" title="bigBoy.backendapi.goods.collectionsTest" hash-for-method="collectionTest(factory)">collectionTest(factory)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-bigBoyTestReport" title="bigBoy.backendapi.goods.collectionsTest" hash-for-method="collectionTest(series)">collectionTest(series)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-bigBoyTestReport" title="bigBoy.backendapi.homepage.showTest" hash-for-method="deleteAssociateTest">deleteAssociateTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-bigBoyTestReport" title="bigBoy.backendapi.homepage.carouseImgTest" hash-for-method="deleteCarouseTest">deleteCarouseTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-bigBoyTestReport" title="bigBoy.backendapi.homepage.hotGoodsTest" hash-for-method="deleteHotGoodsTest">deleteHotGoodsTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-bigBoyTestReport" title="bigBoy.backendapi.hotSearchKeywordsTest" hash-for-method="deleteHotSearchKeywordsTest">deleteHotSearchKeywordsTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-bigBoyTestReport" title="bigBoy.backendapi.homepage.showTest" hash-for-method="deleteShowTest">deleteShowTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-bigBoyTestReport" title="bigBoy.backendapi.homepage.showTest" hash-for-method="deletedisplayWindowTest">deletedisplayWindowTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-bigBoyTestReport" title="bigBoy.app.goods.goodsTest" hash-for-method="getAllMenuGoodsTest(2)">getAllMenuGoodsTest(2)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-bigBoyTestReport" title="bigBoy.app.goods.goodsTest" hash-for-method="getAllMenuGoodsTest(3)">getAllMenuGoodsTest(3)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-bigBoyTestReport" title="bigBoy.app.goods.goodsTest" hash-for-method="getAllMenuGoodsTest(4)">getAllMenuGoodsTest(4)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-bigBoyTestReport" title="bigBoy.app.goods.goodsTest" hash-for-method="getAllMenuGoodsTest(1)">getAllMenuGoodsTest(1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-bigBoyTestReport" title="bigBoy.app.goods.goodsTest" hash-for-method="getAllMenuGoodsTest(null)">getAllMenuGoodsTest(null)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-bigBoyTestReport" title="bigBoy.app.goods.goodsTest" hash-for-method="getChannelInfoTest">getChannelInfoTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-bigBoyTestReport" title="bigBoy.app.goods.goodsTest" hash-for-method="getCollectionInfoTest(factory, 1)">getCollectionInfoTest(factory, 1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-bigBoyTestReport" title="bigBoy.app.goods.goodsTest" hash-for-method="getCollectionInfoTest(ips, 1)">getCollectionInfoTest(ips, 1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-bigBoyTestReport" title="bigBoy.app.goods.goodsTest" hash-for-method="getCollectionInfoTest(series, 1)">getCollectionInfoTest(series, 1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-bigBoyTestReport" title="bigBoy.app.goods.goodsTest" hash-for-method="getCommentsByChannelTest">getCommentsByChannelTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-bigBoyTestReport" title="bigBoy.app.goods.goodsTest" hash-for-method="getFlowTest">getFlowTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-bigBoyTestReport" title="bigBoy.app.goods.goodsTest" hash-for-method="getGoodsByCollectionTest">getGoodsByCollectionTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-bigBoyTestReport" title="bigBoy.app.goods.goodsTest" hash-for-method="getRecommendListTest(1)">getRecommendListTest(1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-bigBoyTestReport" title="bigBoy.app.goods.goodsTest" hash-for-method="getRecommendListTest(null)">getRecommendListTest(null)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-bigBoyTestReport" title="bigBoy.app.goods.goodsTest" hash-for-method="getRecommendListTest(3)">getRecommendListTest(3)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-bigBoyTestReport" title="bigBoy.app.goods.goodsTest" hash-for-method="getRecommendListTest(2)">getRecommendListTest(2)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-bigBoyTestReport" title="bigBoy.app.goods.goodsTest" hash-for-method="getRecommendListTest(4)">getRecommendListTest(4)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-bigBoyTestReport" title="bigBoy.app.goods.goodsDetailsTest" hash-for-method="getgoodsCommentsTest">getgoodsCommentsTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-bigBoyTestReport" title="bigBoy.backendapi.goods.goodsTest" hash-for-method="goodsCommentsOnlineTest">goodsCommentsOnlineTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-bigBoyTestReport" title="bigBoy.app.goods.goodsTest" hash-for-method="hotSearchKeywordsTest">hotSearchKeywordsTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-bigBoyTestReport" title="bigBoy.app.lottery.lotteryTest" hash-for-method="listTest">listTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-bigBoyTestReport" title="bigBoy.app.lottery.lotteryTest" hash-for-method="queryAllTest(2)">queryAllTest(2)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-bigBoyTestReport" title="bigBoy.app.lottery.lotteryTest" hash-for-method="queryAllTest(1)">queryAllTest(1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-bigBoyTestReport" title="bigBoy.app.bbs.tradeShowTest" hash-for-method="queryAppTradeShowListTest">queryAppTradeShowListTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-bigBoyTestReport" title="bigBoy.backendapi.homepage.showTest" hash-for-method="queryAssociateList">queryAssociateList</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-bigBoyTestReport" title="bigBoy.backendapi.homepage.carouseImgTest" hash-for-method="queryCarouseListTest">queryCarouseListTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-bigBoyTestReport" title="bigBoy.backendapi.goods.goodsTest" hash-for-method="queryGoodsInfoByIdTest">queryGoodsInfoByIdTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-bigBoyTestReport" title="bigBoy.app.goods.goodsDetailsTest" hash-for-method="queryGoodsShopViewById">queryGoodsShopViewById</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-bigBoyTestReport" title="bigBoy.app.homepage.homePageTest" hash-for-method="queryHomePageThreadListTest">queryHomePageThreadListTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-bigBoyTestReport" title="bigBoy.app.homepage.homePageTest" hash-for-method="queryHomePageTopTest">queryHomePageTopTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-bigBoyTestReport" title="bigBoy.backendapi.homepage.hotGoodsTest" hash-for-method="queryHotGoodsListTest">queryHotGoodsListTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-bigBoyTestReport" title="bigBoy.backendapi.hotSearchKeywordsTest" hash-for-method="queryHotSearchKeywordsListTest">queryHotSearchKeywordsListTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-bigBoyTestReport" title="bigBoy.app.homepage.lastInfo" hash-for-method="queryLastInfoTest">queryLastInfoTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-bigBoyTestReport" title="bigBoy.app.homepage.appVersionTest" hash-for-method="queryLastInfoTest">queryLastInfoTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-bigBoyTestReport" title="bigBoy.app.homepage.homePageTest" hash-for-method="queryNewsTest">queryNewsTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-bigBoyTestReport" title="bigBoy.app.bbs.bbsTest" hash-for-method="queryReplyListTest">queryReplyListTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-bigBoyTestReport" title="bigBoy.app.bbs.bbsTest" hash-for-method="queryThreadInfoTest">queryThreadInfoTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-bigBoyTestReport" title="bigBoy.backendapi.homepage.carouseImgTest" hash-for-method="queryTopInfoTest">queryTopInfoTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-bigBoyTestReport" title="bigBoy.app.user.userCenter" hash-for-method="queryUserCenterListTest">queryUserCenterListTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-bigBoyTestReport" title="bigBoy.backendapi.goods.goodsTest" hash-for-method="searchByCategoryTest">searchByCategoryTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-bigBoyTestReport" title="bigBoy.app.goods.goodsTest" hash-for-method="searchByKeywordsTest">searchByKeywordsTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-bigBoyTestReport" title="bigBoy.backendapi.goods.collectionsTest" hash-for-method="searchCollection(手办)">searchCollection(手办)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-bigBoyTestReport" title="bigBoy.backendapi.goods.collectionsTest" hash-for-method="searchCollection(模型)">searchCollection(模型)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-bigBoyTestReport" title="bigBoy.backendapi.goods.collectionsTest" hash-for-method="searchCollection(高达)">searchCollection(高达)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-bigBoyTestReport" title="bigBoy.backendapi.goods.collectionsTest" hash-for-method="searchCollection(乐高)">searchCollection(乐高)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-bigBoyTestReport" title="bigBoy.backendapi.goods.goodsTest" hash-for-method="searchGoodsByFactoryIdTest">searchGoodsByFactoryIdTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-bigBoyTestReport" title="bigBoy.backendapi.goods.goodsTest" hash-for-method="searchGoodsTest">searchGoodsTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-bigBoyTestReport" title="bigBoy.app.user.loginTest" hash-for-method="sendSecurityCodeTest">sendSecurityCodeTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-bigBoyTestReport" title="bigBoy.backendapi.homepage.showTest" hash-for-method="showQueryInfoTest">showQueryInfoTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-bigBoyTestReport" title="bigBoy.app.goods.timelineTest" hash-for-method="timelineTest">timelineTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-bigBoyTestReport" title="bigBoy.backendapi.homepage.carouseImgTest" hash-for-method="updateCarouseTest">updateCarouseTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-bigBoyTestReport" title="bigBoy.backendapi.goods.goodsTest" hash-for-method="updateGoodsInfo">updateGoodsInfo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-bigBoyTestReport" title="bigBoy.backendapi.goods.goodsTest" hash-for-method="updateGoodsPics">updateGoodsPics</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-bigBoyTestReport" title="bigBoy.backendapi.goods.goodsTest" hash-for-method="updateGoodsStatus">updateGoodsStatus</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-bigBoyTestReport" title="bigBoy.backendapi.homepage.hotGoodsTest" hash-for-method="updateHotGoodsTest(1)">updateHotGoodsTest(1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-bigBoyTestReport" title="bigBoy.backendapi.homepage.hotGoodsTest" hash-for-method="updateHotGoodsTest(0)">updateHotGoodsTest(0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-bigBoyTestReport" title="bigBoy.backendapi.homepage.hotGoodsTest" hash-for-method="updateHotGoodsTest(1)">updateHotGoodsTest(1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-bigBoyTestReport" title="bigBoy.backendapi.hotSearchKeywordsTest" hash-for-method="updateHotSearchKeywordsTest">updateHotSearchKeywordsTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-bigBoyTestReport" title="bigBoy.backendapi.goods.goodsTest" hash-for-method="updateSeriesTest">updateSeriesTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-bigBoyTestReport" title="bigBoy.backendapi.homepage.showTest" hash-for-method="updateShowTest">updateShowTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-bigBoyTestReport" title="bigBoy.backendapi.homepage.showTest" hash-for-method="updatedisplayWindowTest">updatedisplayWindowTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-bigBoyTestReport -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-bigBoyTestReport" class="panel bigBoyTestReport">
+          <div class="suite-bigBoyTestReport-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">bigBoy.app.bbs.bbsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addBigBoyReplyInfoTest">
+                  </a> <!-- addBigBoyReplyInfoTest -->
+                  <span class="method-name">addBigBoyReplyInfoTest</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at bigBoy.app.bbs.bbsTest.addBigBoyReplyInfoTest(bbsTest.java:148)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+
+</div> <!-- stack-trace -->
+                  <em>
+(发布回贴)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-bigBoyTestReport-class-failed -->
+          <div class="suite-bigBoyTestReport-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">bigBoy.backendapi.goods.goodsAssociateTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="associateTest(0, 100002993)">
+                  </a> <!-- associateTest(0, 100002993) -->
+                  <span class="method-name">associateTest</span>
+                  <span class="parameters">(0, 100002993)</span>
+                  <div class="stack-trace">java.lang.IllegalArgumentException: argument type mismatch
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-bigBoyTestReport-class-failed -->
+          <div class="suite-bigBoyTestReport-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">bigBoy.app.lottery.lotteryTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="drawTest">
+                  </a> <!-- drawTest -->
+                  <span class="method-name">drawTest</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [SUCCESS] but found [USER_NOT_FOUND]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at org.testng.Assert.assertEquals(Assert.java:200)
+	at bigBoy.app.lottery.lotteryTest.drawTest(lotteryTest.java:116)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+
+</div> <!-- stack-trace -->
+                  <em>
+(参与抽奖)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="infoTest">
+                  </a> <!-- infoTest -->
+                  <span class="method-name">infoTest</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [SUCCESS] but found [FAIL]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at org.testng.Assert.assertEquals(Assert.java:200)
+	at bigBoy.app.lottery.lotteryTest.infoTest(lotteryTest.java:98)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+
+</div> <!-- stack-trace -->
+                  <em>
+(查看指定抽奖的信息)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shareTest">
+                  </a> <!-- shareTest -->
+                  <span class="method-name">shareTest</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [SUCCESS] but found [USER_NOT_FOUND]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at org.testng.Assert.assertEquals(Assert.java:200)
+	at bigBoy.app.lottery.lotteryTest.shareTest(lotteryTest.java:134)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+
+</div> <!-- stack-trace -->
+                  <em>
+(分享抽奖)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-bigBoyTestReport-class-failed -->
+          <div class="suite-bigBoyTestReport-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">bigBoy.backendapi.goods.goodsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addChannelTest">
+                  </a> <!-- addChannelTest -->
+                  <span class="method-name">addChannelTest</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [SUCCESS] but found [FAIL]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at org.testng.Assert.assertEquals(Assert.java:200)
+	at bigBoy.backendapi.goods.goodsTest.addChannelTest(goodsTest.java:213)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-bigBoyTestReport-class-failed -->
+          <div class="suite-bigBoyTestReport-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">bigBoy.app.bbs.tradeShowTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="queryDisplayWindowDetailTest">
+                  </a> <!-- queryDisplayWindowDetailTest -->
+                  <span class="method-name">queryDisplayWindowDetailTest</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [SUCCESS] but found [ALERT_MESSAGE]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at org.testng.Assert.assertEquals(Assert.java:200)
+	at bigBoy.app.bbs.tradeShowTest.queryDisplayWindowDetailTest(tradeShowTest.java:56)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+
+</div> <!-- stack-trace -->
+                  <em>
+(查询某个展览下的橱窗作品)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-bigBoyTestReport-class-failed -->
+          <div class="suite-bigBoyTestReport-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">bigBoy.app.order.receiveAddressTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addAddressTest">
+                  </a> <!-- addAddressTest -->
+                  <span class="method-name">addAddressTest</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [SUCCESS] but found [DISABLED_LOGIN]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at org.testng.Assert.assertEquals(Assert.java:200)
+	at bigBoy.app.order.receiveAddressTest.addAddressTest(receiveAddressTest.java:62)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+
+</div> <!-- stack-trace -->
+                  <em>
+(添加收货地址)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="queryListTest">
+                  </a> <!-- queryListTest -->
+                  <span class="method-name">queryListTest</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [SUCCESS] but found [DISABLED_LOGIN]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at org.testng.Assert.assertEquals(Assert.java:200)
+	at bigBoy.app.order.receiveAddressTest.queryListTest(receiveAddressTest.java:90)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+
+</div> <!-- stack-trace -->
+                  <em>
+(查询收货地址列表)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="updateAddressTest">
+                  </a> <!-- updateAddressTest -->
+                  <span class="method-name">updateAddressTest</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [SUCCESS] but found [DISABLED_LOGIN]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at org.testng.Assert.assertEquals(Assert.java:200)
+	at bigBoy.app.order.receiveAddressTest.updateAddressTest(receiveAddressTest.java:79)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+
+</div> <!-- stack-trace -->
+                  <em>
+(修改收货地址)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-bigBoyTestReport-class-failed -->
+          <div class="suite-bigBoyTestReport-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">bigBoy.app.homepage.homePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="queryHomePageThreadListTest">
+                  </a> <!-- queryHomePageThreadListTest -->
+                  <span class="method-name">queryHomePageThreadListTest</span>
+                  <em>
+(查询首页帖子列表)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="queryHomePageTopTest">
+                  </a> <!-- queryHomePageTopTest -->
+                  <span class="method-name">queryHomePageTopTest</span>
+                  <em>
+(查询首页轮播图&热门商品)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="queryNewsTest">
+                  </a> <!-- queryNewsTest -->
+                  <span class="method-name">queryNewsTest</span>
+                  <em>
+(查询资讯列表)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-bigBoyTestReport-class-passed -->
+          <div class="suite-bigBoyTestReport-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">bigBoy.app.bbs.bbsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addBigBoyThreadInfoTest">
+                  </a> <!-- addBigBoyThreadInfoTest -->
+                  <span class="method-name">addBigBoyThreadInfoTest</span>
+                  <em>
+(发布主贴)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="queryReplyListTest">
+                  </a> <!-- queryReplyListTest -->
+                  <span class="method-name">queryReplyListTest</span>
+                  <em>
+(查看某个帖子的回帖)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="queryThreadInfoTest">
+                  </a> <!-- queryThreadInfoTest -->
+                  <span class="method-name">queryThreadInfoTest</span>
+                  <em>
+(查看某个帖子详情)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-bigBoyTestReport-class-passed -->
+          <div class="suite-bigBoyTestReport-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">bigBoy.app.homepage.lastInfo</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="queryLastInfoTest">
+                  </a> <!-- queryLastInfoTest -->
+                  <span class="method-name">queryLastInfoTest</span>
+                  <em>
+(查询开机广告图)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-bigBoyTestReport-class-passed -->
+          <div class="suite-bigBoyTestReport-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">bigBoy.app.lottery.lotteryTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addLotter">
+                  </a> <!-- addLotter -->
+                  <span class="method-name">addLotter</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="listTest">
+                  </a> <!-- listTest -->
+                  <span class="method-name">listTest</span>
+                  <em>
+(查看H5抽奖页面)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="queryAllTest(2)">
+                  </a> <!-- queryAllTest(2) -->
+                  <span class="method-name">queryAllTest</span>
+                  <span class="parameters">(2)</span>
+                  <em>
+(查看全部/我的抽奖)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="queryAllTest(1)">
+                  </a> <!-- queryAllTest(1) -->
+                  <span class="method-name">queryAllTest</span>
+                  <span class="parameters">(1)</span>
+                  <em>
+(查看全部/我的抽奖)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-bigBoyTestReport-class-passed -->
+          <div class="suite-bigBoyTestReport-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">bigBoy.app.goods.goodsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getAllMenuGoodsTest(2)">
+                  </a> <!-- getAllMenuGoodsTest(2) -->
+                  <span class="method-name">getAllMenuGoodsTest</span>
+                  <span class="parameters">(2)</span>
+                  <em>
+(获取商品分类目录及商品)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getAllMenuGoodsTest(3)">
+                  </a> <!-- getAllMenuGoodsTest(3) -->
+                  <span class="method-name">getAllMenuGoodsTest</span>
+                  <span class="parameters">(3)</span>
+                  <em>
+(获取商品分类目录及商品)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getAllMenuGoodsTest(4)">
+                  </a> <!-- getAllMenuGoodsTest(4) -->
+                  <span class="method-name">getAllMenuGoodsTest</span>
+                  <span class="parameters">(4)</span>
+                  <em>
+(获取商品分类目录及商品)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getAllMenuGoodsTest(1)">
+                  </a> <!-- getAllMenuGoodsTest(1) -->
+                  <span class="method-name">getAllMenuGoodsTest</span>
+                  <span class="parameters">(1)</span>
+                  <em>
+(获取商品分类目录及商品)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getAllMenuGoodsTest(null)">
+                  </a> <!-- getAllMenuGoodsTest(null) -->
+                  <span class="method-name">getAllMenuGoodsTest</span>
+                  <span class="parameters">(null)</span>
+                  <em>
+(获取商品分类目录及商品)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getChannelInfoTest">
+                  </a> <!-- getChannelInfoTest -->
+                  <span class="method-name">getChannelInfoTest</span>
+                  <em>
+(查询渠道店铺详情)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getCollectionInfoTest(factory, 1)">
+                  </a> <!-- getCollectionInfoTest(factory, 1) -->
+                  <span class="method-name">getCollectionInfoTest</span>
+                  <span class="parameters">(factory, 1)</span>
+                  <em>
+(查询聚合页详情)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getCollectionInfoTest(ips, 1)">
+                  </a> <!-- getCollectionInfoTest(ips, 1) -->
+                  <span class="method-name">getCollectionInfoTest</span>
+                  <span class="parameters">(ips, 1)</span>
+                  <em>
+(查询聚合页详情)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getCollectionInfoTest(series, 1)">
+                  </a> <!-- getCollectionInfoTest(series, 1) -->
+                  <span class="method-name">getCollectionInfoTest</span>
+                  <span class="parameters">(series, 1)</span>
+                  <em>
+(查询聚合页详情)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getCommentsByChannelTest">
+                  </a> <!-- getCommentsByChannelTest -->
+                  <span class="method-name">getCommentsByChannelTest</span>
+                  <em>
+(查询渠道店铺评论列表)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getFlowTest">
+                  </a> <!-- getFlowTest -->
+                  <span class="method-name">getFlowTest</span>
+                  <em>
+(获取目录下的商品)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getGoodsByCollectionTest">
+                  </a> <!-- getGoodsByCollectionTest -->
+                  <span class="method-name">getGoodsByCollectionTest</span>
+                  <em>
+(查询聚合页商品列表)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getRecommendListTest(1)">
+                  </a> <!-- getRecommendListTest(1) -->
+                  <span class="method-name">getRecommendListTest</span>
+                  <span class="parameters">(1)</span>
+                  <em>
+(获取商品推荐列表)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getRecommendListTest(null)">
+                  </a> <!-- getRecommendListTest(null) -->
+                  <span class="method-name">getRecommendListTest</span>
+                  <span class="parameters">(null)</span>
+                  <em>
+(获取商品推荐列表)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getRecommendListTest(3)">
+                  </a> <!-- getRecommendListTest(3) -->
+                  <span class="method-name">getRecommendListTest</span>
+                  <span class="parameters">(3)</span>
+                  <em>
+(获取商品推荐列表)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getRecommendListTest(2)">
+                  </a> <!-- getRecommendListTest(2) -->
+                  <span class="method-name">getRecommendListTest</span>
+                  <span class="parameters">(2)</span>
+                  <em>
+(获取商品推荐列表)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getRecommendListTest(4)">
+                  </a> <!-- getRecommendListTest(4) -->
+                  <span class="method-name">getRecommendListTest</span>
+                  <span class="parameters">(4)</span>
+                  <em>
+(获取商品推荐列表)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="hotSearchKeywordsTest">
+                  </a> <!-- hotSearchKeywordsTest -->
+                  <span class="method-name">hotSearchKeywordsTest</span>
+                  <em>
+(热搜关键词)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchByKeywordsTest">
+                  </a> <!-- searchByKeywordsTest -->
+                  <span class="method-name">searchByKeywordsTest</span>
+                  <em>
+(根据关键词搜索商品)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-bigBoyTestReport-class-passed -->
+          <div class="suite-bigBoyTestReport-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">bigBoy.app.goods.goodsDetailsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="associateThreadTest">
+                  </a> <!-- associateThreadTest -->
+                  <span class="method-name">associateThreadTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getgoodsCommentsTest">
+                  </a> <!-- getgoodsCommentsTest -->
+                  <span class="method-name">getgoodsCommentsTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="queryGoodsShopViewById">
+                  </a> <!-- queryGoodsShopViewById -->
+                  <span class="method-name">queryGoodsShopViewById</span>
+                  <em>
+(查询商品详情)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-bigBoyTestReport-class-passed -->
+          <div class="suite-bigBoyTestReport-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">bigBoy.backendapi.goods.goodsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="goodsCommentsOnlineTest">
+                  </a> <!-- goodsCommentsOnlineTest -->
+                  <span class="method-name">goodsCommentsOnlineTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="queryGoodsInfoByIdTest">
+                  </a> <!-- queryGoodsInfoByIdTest -->
+                  <span class="method-name">queryGoodsInfoByIdTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchByCategoryTest">
+                  </a> <!-- searchByCategoryTest -->
+                  <span class="method-name">searchByCategoryTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchGoodsByFactoryIdTest">
+                  </a> <!-- searchGoodsByFactoryIdTest -->
+                  <span class="method-name">searchGoodsByFactoryIdTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchGoodsTest">
+                  </a> <!-- searchGoodsTest -->
+                  <span class="method-name">searchGoodsTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="updateGoodsInfo">
+                  </a> <!-- updateGoodsInfo -->
+                  <span class="method-name">updateGoodsInfo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="updateGoodsPics">
+                  </a> <!-- updateGoodsPics -->
+                  <span class="method-name">updateGoodsPics</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="updateGoodsStatus">
+                  </a> <!-- updateGoodsStatus -->
+                  <span class="method-name">updateGoodsStatus</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="updateSeriesTest">
+                  </a> <!-- updateSeriesTest -->
+                  <span class="method-name">updateSeriesTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-bigBoyTestReport-class-passed -->
+          <div class="suite-bigBoyTestReport-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">bigBoy.app.goods.timelineTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="timelineTest">
+                  </a> <!-- timelineTest -->
+                  <span class="method-name">timelineTest</span>
+                  <em>
+(查询指定月份的发售时间线)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-bigBoyTestReport-class-passed -->
+          <div class="suite-bigBoyTestReport-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">bigBoy.app.user.infromTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addInformChannelTest">
+                  </a> <!-- addInformChannelTest -->
+                  <span class="method-name">addInformChannelTest</span>
+                  <em>
+(举报渠道)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addInformReplyTest">
+                  </a> <!-- addInformReplyTest -->
+                  <span class="method-name">addInformReplyTest</span>
+                  <em>
+(举报评论)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addInformThreadTest">
+                  </a> <!-- addInformThreadTest -->
+                  <span class="method-name">addInformThreadTest</span>
+                  <em>
+(举报主贴)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-bigBoyTestReport-class-passed -->
+          <div class="suite-bigBoyTestReport-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">bigBoy.app.user.userCenter</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="queryUserCenterListTest">
+                  </a> <!-- queryUserCenterListTest -->
+                  <span class="method-name">queryUserCenterListTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-bigBoyTestReport-class-passed -->
+          <div class="suite-bigBoyTestReport-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">bigBoy.backendapi.homepage.showTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addAssociateTest">
+                  </a> <!-- addAssociateTest -->
+                  <span class="method-name">addAssociateTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addShowTest">
+                  </a> <!-- addShowTest -->
+                  <span class="method-name">addShowTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="adddisplayWindowTest">
+                  </a> <!-- adddisplayWindowTest -->
+                  <span class="method-name">adddisplayWindowTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteAssociateTest">
+                  </a> <!-- deleteAssociateTest -->
+                  <span class="method-name">deleteAssociateTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteShowTest">
+                  </a> <!-- deleteShowTest -->
+                  <span class="method-name">deleteShowTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deletedisplayWindowTest">
+                  </a> <!-- deletedisplayWindowTest -->
+                  <span class="method-name">deletedisplayWindowTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="queryAssociateList">
+                  </a> <!-- queryAssociateList -->
+                  <span class="method-name">queryAssociateList</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="showQueryInfoTest">
+                  </a> <!-- showQueryInfoTest -->
+                  <span class="method-name">showQueryInfoTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="updateShowTest">
+                  </a> <!-- updateShowTest -->
+                  <span class="method-name">updateShowTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="updatedisplayWindowTest">
+                  </a> <!-- updatedisplayWindowTest -->
+                  <span class="method-name">updatedisplayWindowTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-bigBoyTestReport-class-passed -->
+          <div class="suite-bigBoyTestReport-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">bigBoy.app.user.loginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="sendSecurityCodeTest">
+                  </a> <!-- sendSecurityCodeTest -->
+                  <span class="method-name">sendSecurityCodeTest</span>
+                  <em>
+(发送短信验证码)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-bigBoyTestReport-class-passed -->
+          <div class="suite-bigBoyTestReport-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">bigBoy.backendapi.homepage.hotGoodsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addHotGoodsTest">
+                  </a> <!-- addHotGoodsTest -->
+                  <span class="method-name">addHotGoodsTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteHotGoodsTest">
+                  </a> <!-- deleteHotGoodsTest -->
+                  <span class="method-name">deleteHotGoodsTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="queryHotGoodsListTest">
+                  </a> <!-- queryHotGoodsListTest -->
+                  <span class="method-name">queryHotGoodsListTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="updateHotGoodsTest(1)">
+                  </a> <!-- updateHotGoodsTest(1) -->
+                  <span class="method-name">updateHotGoodsTest</span>
+                  <span class="parameters">(1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="updateHotGoodsTest(0)">
+                  </a> <!-- updateHotGoodsTest(0) -->
+                  <span class="method-name">updateHotGoodsTest</span>
+                  <span class="parameters">(0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="updateHotGoodsTest(1)">
+                  </a> <!-- updateHotGoodsTest(1) -->
+                  <span class="method-name">updateHotGoodsTest</span>
+                  <span class="parameters">(1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-bigBoyTestReport-class-passed -->
+          <div class="suite-bigBoyTestReport-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">bigBoy.backendapi.goods.goodsAssociateTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="associateTest(1, 702)">
+                  </a> <!-- associateTest(1, 702) -->
+                  <span class="method-name">associateTest</span>
+                  <span class="parameters">(1, 702)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-bigBoyTestReport-class-passed -->
+          <div class="suite-bigBoyTestReport-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">bigBoy.backendapi.homepage.carouseImgTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addCarouseTest">
+                  </a> <!-- addCarouseTest -->
+                  <span class="method-name">addCarouseTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteCarouseTest">
+                  </a> <!-- deleteCarouseTest -->
+                  <span class="method-name">deleteCarouseTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="queryCarouseListTest">
+                  </a> <!-- queryCarouseListTest -->
+                  <span class="method-name">queryCarouseListTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="queryTopInfoTest">
+                  </a> <!-- queryTopInfoTest -->
+                  <span class="method-name">queryTopInfoTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="updateCarouseTest">
+                  </a> <!-- updateCarouseTest -->
+                  <span class="method-name">updateCarouseTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-bigBoyTestReport-class-passed -->
+          <div class="suite-bigBoyTestReport-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">bigBoy.app.homepage.appVersionTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="queryLastInfoTest">
+                  </a> <!-- queryLastInfoTest -->
+                  <span class="method-name">queryLastInfoTest</span>
+                  <em>
+(查询版本最新信息)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-bigBoyTestReport-class-passed -->
+          <div class="suite-bigBoyTestReport-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">bigBoy.backendapi.goods.collectionsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="collectionTest(ips)">
+                  </a> <!-- collectionTest(ips) -->
+                  <span class="method-name">collectionTest</span>
+                  <span class="parameters">(ips)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="collectionTest(factory)">
+                  </a> <!-- collectionTest(factory) -->
+                  <span class="method-name">collectionTest</span>
+                  <span class="parameters">(factory)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="collectionTest(series)">
+                  </a> <!-- collectionTest(series) -->
+                  <span class="method-name">collectionTest</span>
+                  <span class="parameters">(series)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchCollection(手办)">
+                  </a> <!-- searchCollection(手办) -->
+                  <span class="method-name">searchCollection</span>
+                  <span class="parameters">(手办)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchCollection(模型)">
+                  </a> <!-- searchCollection(模型) -->
+                  <span class="method-name">searchCollection</span>
+                  <span class="parameters">(模型)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchCollection(高达)">
+                  </a> <!-- searchCollection(高达) -->
+                  <span class="method-name">searchCollection</span>
+                  <span class="parameters">(高达)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchCollection(乐高)">
+                  </a> <!-- searchCollection(乐高) -->
+                  <span class="method-name">searchCollection</span>
+                  <span class="parameters">(乐高)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-bigBoyTestReport-class-passed -->
+          <div class="suite-bigBoyTestReport-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">bigBoy.backendapi.hotSearchKeywordsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addHotSearchKeywordsTest">
+                  </a> <!-- addHotSearchKeywordsTest -->
+                  <span class="method-name">addHotSearchKeywordsTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteHotSearchKeywordsTest">
+                  </a> <!-- deleteHotSearchKeywordsTest -->
+                  <span class="method-name">deleteHotSearchKeywordsTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="queryHotSearchKeywordsListTest">
+                  </a> <!-- queryHotSearchKeywordsListTest -->
+                  <span class="method-name">queryHotSearchKeywordsListTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="updateHotSearchKeywordsTest">
+                  </a> <!-- updateHotSearchKeywordsTest -->
+                  <span class="method-name">updateHotSearchKeywordsTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-bigBoyTestReport-class-passed -->
+          <div class="suite-bigBoyTestReport-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">bigBoy.app.bbs.tradeShowTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="queryAppTradeShowListTest">
+                  </a> <!-- queryAppTradeShowListTest -->
+                  <span class="method-name">queryAppTradeShowListTest</span>
+                  <em>
+(查询展览列表)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-bigBoyTestReport-class-passed -->
+        </div> <!-- panel bigBoyTestReport -->
+        <div panel-name="test-xml-bigBoyTestReport" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/Users/zhuli0513/IdeaProjects/zaoApiTest/run/testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;bigBoyTestReport&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;org.uncommons.reportng.HTMLReporter&quot;/&gt;
+    &lt;listener class-name=&quot;org.uncommons.reportng.JUnitXMLReporter&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test verbose=&quot;2&quot; name=&quot;bigBoyTestReport&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;bigBoy.app.homepage.appVersionTest&quot;/&gt;
+      &lt;class name=&quot;bigBoy.app.homepage.lastInfo&quot;/&gt;
+      &lt;class name=&quot;bigBoy.app.homepage.homePageTest&quot;/&gt;
+      &lt;class name=&quot;bigBoy.app.user.loginTest&quot;/&gt;
+      &lt;class name=&quot;bigBoy.app.bbs.bbsTest&quot;/&gt;
+      &lt;class name=&quot;bigBoy.app.bbs.tradeShowTest&quot;/&gt;
+      &lt;class name=&quot;bigBoy.app.user.infromTest&quot;/&gt;
+      &lt;class name=&quot;bigBoy.app.user.userCenter&quot;/&gt;
+      &lt;class name=&quot;bigBoy.app.goods.goodsTest&quot;/&gt;
+      &lt;class name=&quot;bigBoy.app.goods.goodsDetailsTest&quot;/&gt;
+      &lt;class name=&quot;bigBoy.app.goods.timelineTest&quot;/&gt;
+      &lt;class name=&quot;bigBoy.app.lottery.lotteryTest&quot;/&gt;
+      &lt;class name=&quot;bigBoy.app.order.receiveAddressTest&quot;/&gt;
+      &lt;class name=&quot;bigBoy.backendapi.homepage.carouseImgTest&quot;/&gt;
+      &lt;class name=&quot;bigBoy.backendapi.homepage.hotGoodsTest&quot;/&gt;
+      &lt;class name=&quot;bigBoy.backendapi.goods.goodsAssociateTest&quot;/&gt;
+      &lt;class name=&quot;bigBoy.backendapi.homepage.showTest&quot;/&gt;
+      &lt;class name=&quot;bigBoy.backendapi.goods.goodsTest&quot;/&gt;
+      &lt;class name=&quot;bigBoy.backendapi.goods.collectionsTest&quot;/&gt;
+      &lt;class name=&quot;bigBoy.backendapi.hotSearchKeywordsTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- bigBoyTestReport --&gt;
+&lt;/suite&gt; &lt;!-- bigBoyTestReport --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-bigBoyTestReport" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for bigBoyTestReport</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">bigBoyTestReport (20 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-bigBoyTestReport" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for bigBoyTestReport</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-bigBoyTestReport" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for bigBoyTestReport</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_bigBoyTestReport');
+function tableData_bigBoyTestReport() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(93);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'searchByKeywordsTest')
+data.setCell(0, 2, 'bigBoy.app.goods.goodsTest')
+data.setCell(0, 3, 13269);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'getGoodsByCollectionTest')
+data.setCell(1, 2, 'bigBoy.app.goods.goodsTest')
+data.setCell(1, 3, 5831);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'addBigBoyThreadInfoTest')
+data.setCell(2, 2, 'bigBoy.app.bbs.bbsTest')
+data.setCell(2, 3, 2867);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'getFlowTest')
+data.setCell(3, 2, 'bigBoy.app.goods.goodsTest')
+data.setCell(3, 3, 2480);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'collectionTest')
+data.setCell(4, 2, 'bigBoy.backendapi.goods.collectionsTest')
+data.setCell(4, 3, 2012);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'collectionTest')
+data.setCell(5, 2, 'bigBoy.backendapi.goods.collectionsTest')
+data.setCell(5, 3, 1814);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'queryLastInfoTest')
+data.setCell(6, 2, 'bigBoy.app.homepage.appVersionTest')
+data.setCell(6, 3, 1749);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'collectionTest')
+data.setCell(7, 2, 'bigBoy.backendapi.goods.collectionsTest')
+data.setCell(7, 3, 1514);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'updateGoodsInfo')
+data.setCell(8, 2, 'bigBoy.backendapi.goods.goodsTest')
+data.setCell(8, 3, 980);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'queryHomePageThreadListTest')
+data.setCell(9, 2, 'bigBoy.app.homepage.homePageTest')
+data.setCell(9, 3, 865);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'addLotter')
+data.setCell(10, 2, 'bigBoy.app.lottery.lotteryTest')
+data.setCell(10, 3, 860);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'searchGoodsByFactoryIdTest')
+data.setCell(11, 2, 'bigBoy.backendapi.goods.goodsTest')
+data.setCell(11, 3, 427);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'sendSecurityCodeTest')
+data.setCell(12, 2, 'bigBoy.app.user.loginTest')
+data.setCell(12, 3, 395);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'updateHotGoodsTest')
+data.setCell(13, 2, 'bigBoy.backendapi.homepage.hotGoodsTest')
+data.setCell(13, 3, 376);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'timelineTest')
+data.setCell(14, 2, 'bigBoy.app.goods.timelineTest')
+data.setCell(14, 3, 358);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'addInformChannelTest')
+data.setCell(15, 2, 'bigBoy.app.user.infromTest')
+data.setCell(15, 3, 355);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'updateHotGoodsTest')
+data.setCell(16, 2, 'bigBoy.backendapi.homepage.hotGoodsTest')
+data.setCell(16, 3, 352);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'getRecommendListTest')
+data.setCell(17, 2, 'bigBoy.app.goods.goodsTest')
+data.setCell(17, 3, 351);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'queryNewsTest')
+data.setCell(18, 2, 'bigBoy.app.homepage.homePageTest')
+data.setCell(18, 3, 342);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'addChannelTest')
+data.setCell(19, 2, 'bigBoy.backendapi.goods.goodsTest')
+data.setCell(19, 3, 327);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'queryThreadInfoTest')
+data.setCell(20, 2, 'bigBoy.app.bbs.bbsTest')
+data.setCell(20, 3, 321);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'getCommentsByChannelTest')
+data.setCell(21, 2, 'bigBoy.app.goods.goodsTest')
+data.setCell(21, 3, 320);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'getRecommendListTest')
+data.setCell(22, 2, 'bigBoy.app.goods.goodsTest')
+data.setCell(22, 3, 298);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'getChannelInfoTest')
+data.setCell(23, 2, 'bigBoy.app.goods.goodsTest')
+data.setCell(23, 3, 276);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'queryGoodsShopViewById')
+data.setCell(24, 2, 'bigBoy.app.goods.goodsDetailsTest')
+data.setCell(24, 3, 270);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'updateHotSearchKeywordsTest')
+data.setCell(25, 2, 'bigBoy.backendapi.hotSearchKeywordsTest')
+data.setCell(25, 3, 267);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'updateGoodsPics')
+data.setCell(26, 2, 'bigBoy.backendapi.goods.goodsTest')
+data.setCell(26, 3, 259);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'addHotSearchKeywordsTest')
+data.setCell(27, 2, 'bigBoy.backendapi.hotSearchKeywordsTest')
+data.setCell(27, 3, 252);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'updateCarouseTest')
+data.setCell(28, 2, 'bigBoy.backendapi.homepage.carouseImgTest')
+data.setCell(28, 3, 245);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'associateTest')
+data.setCell(29, 2, 'bigBoy.backendapi.goods.goodsAssociateTest')
+data.setCell(29, 3, 236);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'updateHotGoodsTest')
+data.setCell(30, 2, 'bigBoy.backendapi.homepage.hotGoodsTest')
+data.setCell(30, 3, 223);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'getRecommendListTest')
+data.setCell(31, 2, 'bigBoy.app.goods.goodsTest')
+data.setCell(31, 3, 217);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'adddisplayWindowTest')
+data.setCell(32, 2, 'bigBoy.backendapi.homepage.showTest')
+data.setCell(32, 3, 188);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'addCarouseTest')
+data.setCell(33, 2, 'bigBoy.backendapi.homepage.carouseImgTest')
+data.setCell(33, 3, 183);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'queryUserCenterListTest')
+data.setCell(34, 2, 'bigBoy.app.user.userCenter')
+data.setCell(34, 3, 182);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'addHotGoodsTest')
+data.setCell(35, 2, 'bigBoy.backendapi.homepage.hotGoodsTest')
+data.setCell(35, 3, 182);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'getRecommendListTest')
+data.setCell(36, 2, 'bigBoy.app.goods.goodsTest')
+data.setCell(36, 3, 172);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'getRecommendListTest')
+data.setCell(37, 2, 'bigBoy.app.goods.goodsTest')
+data.setCell(37, 3, 160);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'addShowTest')
+data.setCell(38, 2, 'bigBoy.backendapi.homepage.showTest')
+data.setCell(38, 3, 158);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'queryAppTradeShowListTest')
+data.setCell(39, 2, 'bigBoy.app.bbs.tradeShowTest')
+data.setCell(39, 3, 154);
+data.setCell(40, 0, 40)
+data.setCell(40, 1, 'updateSeriesTest')
+data.setCell(40, 2, 'bigBoy.backendapi.goods.goodsTest')
+data.setCell(40, 3, 153);
+data.setCell(41, 0, 41)
+data.setCell(41, 1, 'searchByCategoryTest')
+data.setCell(41, 2, 'bigBoy.backendapi.goods.goodsTest')
+data.setCell(41, 3, 139);
+data.setCell(42, 0, 42)
+data.setCell(42, 1, 'searchGoodsTest')
+data.setCell(42, 2, 'bigBoy.backendapi.goods.goodsTest')
+data.setCell(42, 3, 132);
+data.setCell(43, 0, 43)
+data.setCell(43, 1, 'addAssociateTest')
+data.setCell(43, 2, 'bigBoy.backendapi.homepage.showTest')
+data.setCell(43, 3, 128);
+data.setCell(44, 0, 44)
+data.setCell(44, 1, 'updateGoodsStatus')
+data.setCell(44, 2, 'bigBoy.backendapi.goods.goodsTest')
+data.setCell(44, 3, 121);
+data.setCell(45, 0, 45)
+data.setCell(45, 1, 'getAllMenuGoodsTest')
+data.setCell(45, 2, 'bigBoy.app.goods.goodsTest')
+data.setCell(45, 3, 114);
+data.setCell(46, 0, 46)
+data.setCell(46, 1, 'infoTest')
+data.setCell(46, 2, 'bigBoy.app.lottery.lotteryTest')
+data.setCell(46, 3, 113);
+data.setCell(47, 0, 47)
+data.setCell(47, 1, 'getAllMenuGoodsTest')
+data.setCell(47, 2, 'bigBoy.app.goods.goodsTest')
+data.setCell(47, 3, 110);
+data.setCell(48, 0, 48)
+data.setCell(48, 1, 'addInformThreadTest')
+data.setCell(48, 2, 'bigBoy.app.user.infromTest')
+data.setCell(48, 3, 106);
+data.setCell(49, 0, 49)
+data.setCell(49, 1, 'listTest')
+data.setCell(49, 2, 'bigBoy.app.lottery.lotteryTest')
+data.setCell(49, 3, 101);
+data.setCell(50, 0, 50)
+data.setCell(50, 1, 'getAllMenuGoodsTest')
+data.setCell(50, 2, 'bigBoy.app.goods.goodsTest')
+data.setCell(50, 3, 100);
+data.setCell(51, 0, 51)
+data.setCell(51, 1, 'queryAssociateList')
+data.setCell(51, 2, 'bigBoy.backendapi.homepage.showTest')
+data.setCell(51, 3, 99);
+data.setCell(52, 0, 52)
+data.setCell(52, 1, 'queryHomePageTopTest')
+data.setCell(52, 2, 'bigBoy.app.homepage.homePageTest')
+data.setCell(52, 3, 96);
+data.setCell(53, 0, 53)
+data.setCell(53, 1, 'queryTopInfoTest')
+data.setCell(53, 2, 'bigBoy.backendapi.homepage.carouseImgTest')
+data.setCell(53, 3, 95);
+data.setCell(54, 0, 54)
+data.setCell(54, 1, 'updatedisplayWindowTest')
+data.setCell(54, 2, 'bigBoy.backendapi.homepage.showTest')
+data.setCell(54, 3, 86);
+data.setCell(55, 0, 55)
+data.setCell(55, 1, 'getCollectionInfoTest')
+data.setCell(55, 2, 'bigBoy.app.goods.goodsTest')
+data.setCell(55, 3, 86);
+data.setCell(56, 0, 56)
+data.setCell(56, 1, 'queryLastInfoTest')
+data.setCell(56, 2, 'bigBoy.app.homepage.lastInfo')
+data.setCell(56, 3, 85);
+data.setCell(57, 0, 57)
+data.setCell(57, 1, 'associateThreadTest')
+data.setCell(57, 2, 'bigBoy.app.goods.goodsDetailsTest')
+data.setCell(57, 3, 85);
+data.setCell(58, 0, 58)
+data.setCell(58, 1, 'addInformReplyTest')
+data.setCell(58, 2, 'bigBoy.app.user.infromTest')
+data.setCell(58, 3, 80);
+data.setCell(59, 0, 59)
+data.setCell(59, 1, 'goodsCommentsOnlineTest')
+data.setCell(59, 2, 'bigBoy.backendapi.goods.goodsTest')
+data.setCell(59, 3, 78);
+data.setCell(60, 0, 60)
+data.setCell(60, 1, 'getAllMenuGoodsTest')
+data.setCell(60, 2, 'bigBoy.app.goods.goodsTest')
+data.setCell(60, 3, 77);
+data.setCell(61, 0, 61)
+data.setCell(61, 1, 'queryReplyListTest')
+data.setCell(61, 2, 'bigBoy.app.bbs.bbsTest')
+data.setCell(61, 3, 73);
+data.setCell(62, 0, 62)
+data.setCell(62, 1, 'searchCollection')
+data.setCell(62, 2, 'bigBoy.backendapi.goods.collectionsTest')
+data.setCell(62, 3, 72);
+data.setCell(63, 0, 63)
+data.setCell(63, 1, 'hotSearchKeywordsTest')
+data.setCell(63, 2, 'bigBoy.app.goods.goodsTest')
+data.setCell(63, 3, 72);
+data.setCell(64, 0, 64)
+data.setCell(64, 1, 'queryDisplayWindowDetailTest')
+data.setCell(64, 2, 'bigBoy.app.bbs.tradeShowTest')
+data.setCell(64, 3, 69);
+data.setCell(65, 0, 65)
+data.setCell(65, 1, 'queryAllTest')
+data.setCell(65, 2, 'bigBoy.app.lottery.lotteryTest')
+data.setCell(65, 3, 68);
+data.setCell(66, 0, 66)
+data.setCell(66, 1, 'getAllMenuGoodsTest')
+data.setCell(66, 2, 'bigBoy.app.goods.goodsTest')
+data.setCell(66, 3, 67);
+data.setCell(67, 0, 67)
+data.setCell(67, 1, 'getCollectionInfoTest')
+data.setCell(67, 2, 'bigBoy.app.goods.goodsTest')
+data.setCell(67, 3, 66);
+data.setCell(68, 0, 68)
+data.setCell(68, 1, 'deletedisplayWindowTest')
+data.setCell(68, 2, 'bigBoy.backendapi.homepage.showTest')
+data.setCell(68, 3, 66);
+data.setCell(69, 0, 69)
+data.setCell(69, 1, 'deleteCarouseTest')
+data.setCell(69, 2, 'bigBoy.backendapi.homepage.carouseImgTest')
+data.setCell(69, 3, 66);
+data.setCell(70, 0, 70)
+data.setCell(70, 1, 'getgoodsCommentsTest')
+data.setCell(70, 2, 'bigBoy.app.goods.goodsDetailsTest')
+data.setCell(70, 3, 64);
+data.setCell(71, 0, 71)
+data.setCell(71, 1, 'addAddressTest')
+data.setCell(71, 2, 'bigBoy.app.order.receiveAddressTest')
+data.setCell(71, 3, 61);
+data.setCell(72, 0, 72)
+data.setCell(72, 1, 'updateShowTest')
+data.setCell(72, 2, 'bigBoy.backendapi.homepage.showTest')
+data.setCell(72, 3, 60);
+data.setCell(73, 0, 73)
+data.setCell(73, 1, 'shareTest')
+data.setCell(73, 2, 'bigBoy.app.lottery.lotteryTest')
+data.setCell(73, 3, 60);
+data.setCell(74, 0, 74)
+data.setCell(74, 1, 'drawTest')
+data.setCell(74, 2, 'bigBoy.app.lottery.lotteryTest')
+data.setCell(74, 3, 59);
+data.setCell(75, 0, 75)
+data.setCell(75, 1, 'deleteShowTest')
+data.setCell(75, 2, 'bigBoy.backendapi.homepage.showTest')
+data.setCell(75, 3, 58);
+data.setCell(76, 0, 76)
+data.setCell(76, 1, 'queryAllTest')
+data.setCell(76, 2, 'bigBoy.app.lottery.lotteryTest')
+data.setCell(76, 3, 58);
+data.setCell(77, 0, 77)
+data.setCell(77, 1, 'getCollectionInfoTest')
+data.setCell(77, 2, 'bigBoy.app.goods.goodsTest')
+data.setCell(77, 3, 56);
+data.setCell(78, 0, 78)
+data.setCell(78, 1, 'deleteHotGoodsTest')
+data.setCell(78, 2, 'bigBoy.backendapi.homepage.hotGoodsTest')
+data.setCell(78, 3, 55);
+data.setCell(79, 0, 79)
+data.setCell(79, 1, 'deleteHotSearchKeywordsTest')
+data.setCell(79, 2, 'bigBoy.backendapi.hotSearchKeywordsTest')
+data.setCell(79, 3, 53);
+data.setCell(80, 0, 80)
+data.setCell(80, 1, 'queryGoodsInfoByIdTest')
+data.setCell(80, 2, 'bigBoy.backendapi.goods.goodsTest')
+data.setCell(80, 3, 52);
+data.setCell(81, 0, 81)
+data.setCell(81, 1, 'updateAddressTest')
+data.setCell(81, 2, 'bigBoy.app.order.receiveAddressTest')
+data.setCell(81, 3, 51);
+data.setCell(82, 0, 82)
+data.setCell(82, 1, 'queryListTest')
+data.setCell(82, 2, 'bigBoy.app.order.receiveAddressTest')
+data.setCell(82, 3, 50);
+data.setCell(83, 0, 83)
+data.setCell(83, 1, 'searchCollection')
+data.setCell(83, 2, 'bigBoy.backendapi.goods.collectionsTest')
+data.setCell(83, 3, 48);
+data.setCell(84, 0, 84)
+data.setCell(84, 1, 'deleteAssociateTest')
+data.setCell(84, 2, 'bigBoy.backendapi.homepage.showTest')
+data.setCell(84, 3, 45);
+data.setCell(85, 0, 85)
+data.setCell(85, 1, 'searchCollection')
+data.setCell(85, 2, 'bigBoy.backendapi.goods.collectionsTest')
+data.setCell(85, 3, 41);
+data.setCell(86, 0, 86)
+data.setCell(86, 1, 'showQueryInfoTest')
+data.setCell(86, 2, 'bigBoy.backendapi.homepage.showTest')
+data.setCell(86, 3, 40);
+data.setCell(87, 0, 87)
+data.setCell(87, 1, 'searchCollection')
+data.setCell(87, 2, 'bigBoy.backendapi.goods.collectionsTest')
+data.setCell(87, 3, 34);
+data.setCell(88, 0, 88)
+data.setCell(88, 1, 'queryCarouseListTest')
+data.setCell(88, 2, 'bigBoy.backendapi.homepage.carouseImgTest')
+data.setCell(88, 3, 33);
+data.setCell(89, 0, 89)
+data.setCell(89, 1, 'queryHotGoodsListTest')
+data.setCell(89, 2, 'bigBoy.backendapi.homepage.hotGoodsTest')
+data.setCell(89, 3, 29);
+data.setCell(90, 0, 90)
+data.setCell(90, 1, 'queryHotSearchKeywordsListTest')
+data.setCell(90, 2, 'bigBoy.backendapi.hotSearchKeywordsTest')
+data.setCell(90, 3, 29);
+data.setCell(91, 0, 91)
+data.setCell(91, 1, 'addBigBoyReplyInfoTest')
+data.setCell(91, 2, 'bigBoy.app.bbs.bbsTest')
+data.setCell(91, 3, 1);
+data.setCell(92, 0, 92)
+data.setCell(92, 1, 'associateTest')
+data.setCell(92, 2, 'bigBoy.backendapi.goods.goodsAssociateTest')
+data.setCell(92, 3, 1);
+window.suiteTableData['bigBoyTestReport']= { tableData: data, tableDiv: 'times-div-bigBoyTestReport'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 45 seconds</span>
+              <div id="times-div-bigBoyTestReport">
+              </div> <!-- times-div-bigBoyTestReport -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-bigBoyTestReport" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for bigBoyTestReport</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-bigBoyTestReport" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-bigBoyTestReport" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">bigBoy.app.homepage.appVersionTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">queryLastInfoTest</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">bigBoy.app.homepage.lastInfo</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">queryLastInfoTest</span>
+                <span class="method-start">1750 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">bigBoy.app.homepage.homePageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">queryHomePageTopTest</span>
+                <span class="method-start">1835 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">queryHomePageThreadListTest</span>
+                <span class="method-start">1931 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">queryNewsTest</span>
+                <span class="method-start">2796 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">bigBoy.app.user.loginTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">sendSecurityCodeTest</span>
+                <span class="method-start">3139 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">bigBoy.app.bbs.bbsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">3534 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">addBigBoyThreadInfoTest</span>
+                <span class="method-start">4014 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">addBigBoyReplyInfoTest</span>
+                <span class="method-start">6881 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">queryThreadInfoTest</span>
+                <span class="method-start">6889 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">queryReplyListTest</span>
+                <span class="method-start">7211 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">bigBoy.app.bbs.tradeShowTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">7285 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">queryAppTradeShowListTest</span>
+                <span class="method-start">7463 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">queryDisplayWindowDetailTest</span>
+                <span class="method-start">7617 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">bigBoy.app.user.infromTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">7688 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">addInformChannelTest</span>
+                <span class="method-start">7859 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addInformThreadTest</span>
+                <span class="method-start">8215 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addInformReplyTest</span>
+                <span class="method-start">8322 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">8402 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">bigBoy.app.user.userCenter</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">8502 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">queryUserCenterListTest</span>
+                <span class="method-start">8670 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">bigBoy.app.goods.goodsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">8853 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">getAllMenuGoodsTest(null)</span>
+                <span class="method-start">9033 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getAllMenuGoodsTest(1)</span>
+                <span class="method-start">9147 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getAllMenuGoodsTest(2)</span>
+                <span class="method-start">9225 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getAllMenuGoodsTest(3)</span>
+                <span class="method-start">9335 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getAllMenuGoodsTest(4)</span>
+                <span class="method-start">9435 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getChannelInfoTest</span>
+                <span class="method-start">9502 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getCollectionInfoTest(ips, 1)</span>
+                <span class="method-start">10076 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getCollectionInfoTest(series, 1)</span>
+                <span class="method-start">10162 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getCollectionInfoTest(factory, 1)</span>
+                <span class="method-start">10218 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getCommentsByChannelTest</span>
+                <span class="method-start">10284 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getFlowTest</span>
+                <span class="method-start">10605 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getGoodsByCollectionTest</span>
+                <span class="method-start">13085 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getRecommendListTest(null)</span>
+                <span class="method-start">18917 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getRecommendListTest(1)</span>
+                <span class="method-start">19268 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getRecommendListTest(2)</span>
+                <span class="method-start">19485 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getRecommendListTest(3)</span>
+                <span class="method-start">19783 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getRecommendListTest(4)</span>
+                <span class="method-start">19955 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">hotSearchKeywordsTest</span>
+                <span class="method-start">20115 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchByKeywordsTest</span>
+                <span class="method-start">20187 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">bigBoy.app.goods.goodsDetailsTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">queryGoodsShopViewById</span>
+                <span class="method-start">33457 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getgoodsCommentsTest</span>
+                <span class="method-start">33728 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">associateThreadTest</span>
+                <span class="method-start">33792 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">bigBoy.app.goods.timelineTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">timelineTest</span>
+                <span class="method-start">33878 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">bigBoy.app.lottery.lotteryTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">addLotter</span>
+                <span class="method-start">34237 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">34237 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">listTest</span>
+                <span class="method-start">35097 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">infoTest</span>
+                <span class="method-start">35198 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">drawTest</span>
+                <span class="method-start">35312 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">shareTest</span>
+                <span class="method-start">35372 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">queryAllTest(1)</span>
+                <span class="method-start">35433 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">queryAllTest(2)</span>
+                <span class="method-start">35501 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">bigBoy.app.order.receiveAddressTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">addAddressTest</span>
+                <span class="method-start">35560 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">35560 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">updateAddressTest</span>
+                <span class="method-start">35622 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">queryListTest</span>
+                <span class="method-start">35674 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">bigBoy.backendapi.homepage.carouseImgTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">addCarouseTest</span>
+                <span class="method-start">35725 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">updateCarouseTest</span>
+                <span class="method-start">35908 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">queryCarouseListTest</span>
+                <span class="method-start">36153 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">queryTopInfoTest</span>
+                <span class="method-start">36186 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">deleteCarouseTest</span>
+                <span class="method-start">36281 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">bigBoy.backendapi.homepage.hotGoodsTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">addHotGoodsTest</span>
+                <span class="method-start">36348 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">updateHotGoodsTest(1)</span>
+                <span class="method-start">36531 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">updateHotGoodsTest(0)</span>
+                <span class="method-start">36884 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">updateHotGoodsTest(1)</span>
+                <span class="method-start">37261 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">queryHotGoodsListTest</span>
+                <span class="method-start">37484 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">deleteHotGoodsTest</span>
+                <span class="method-start">37513 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">bigBoy.backendapi.goods.goodsAssociateTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">associateTest(1, 702)</span>
+                <span class="method-start">37759 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">associateTest(0, 100002993)</span>
+                <span class="method-start">37995 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">bigBoy.backendapi.homepage.showTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">addShowTest</span>
+                <span class="method-start">37997 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">showQueryInfoTest</span>
+                <span class="method-start">38156 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">updateShowTest</span>
+                <span class="method-start">38197 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">adddisplayWindowTest</span>
+                <span class="method-start">38257 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">updatedisplayWindowTest</span>
+                <span class="method-start">38446 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addAssociateTest</span>
+                <span class="method-start">38532 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">deleteAssociateTest</span>
+                <span class="method-start">38660 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">queryAssociateList</span>
+                <span class="method-start">38706 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">deletedisplayWindowTest</span>
+                <span class="method-start">38806 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">deleteShowTest</span>
+                <span class="method-start">38872 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">bigBoy.backendapi.goods.goodsTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">queryGoodsInfoByIdTest</span>
+                <span class="method-start">38930 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchGoodsTest</span>
+                <span class="method-start">38982 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchByCategoryTest</span>
+                <span class="method-start">39114 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchGoodsByFactoryIdTest</span>
+                <span class="method-start">39253 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">updateSeriesTest</span>
+                <span class="method-start">39680 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">updateGoodsInfo</span>
+                <span class="method-start">39833 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">updateGoodsPics</span>
+                <span class="method-start">40814 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">updateGoodsStatus</span>
+                <span class="method-start">41073 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">goodsCommentsOnlineTest</span>
+                <span class="method-start">41195 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">addChannelTest</span>
+                <span class="method-start">41273 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">bigBoy.backendapi.goods.collectionsTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">collectionTest(ips)</span>
+                <span class="method-start">41601 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">collectionTest(series)</span>
+                <span class="method-start">43415 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">collectionTest(factory)</span>
+                <span class="method-start">45428 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchCollection(高达)</span>
+                <span class="method-start">46942 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchCollection(乐高)</span>
+                <span class="method-start">46990 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchCollection(手办)</span>
+                <span class="method-start">47031 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchCollection(模型)</span>
+                <span class="method-start">47103 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">bigBoy.backendapi.hotSearchKeywordsTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">addHotSearchKeywordsTest</span>
+                <span class="method-start">47137 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">updateHotSearchKeywordsTest</span>
+                <span class="method-start">47389 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">queryHotSearchKeywordsListTest</span>
+                <span class="method-start">47656 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">deleteHotSearchKeywordsTest</span>
+                <span class="method-start">47685 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

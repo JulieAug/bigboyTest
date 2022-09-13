@@ -37,5 +37,4 @@ public class RandomUtil {
     DIGITS.add(s);
     return s;
   }
-
 }

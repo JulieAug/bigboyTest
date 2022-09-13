@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="bigBoyTestReport"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.541">
+  <properties />
+  
+  
+            <testcase name="addInformThreadTest" time="0.106" classname="bigBoy.app.user.infromTest" />
+                <testcase name="addInformReplyTest" time="0.080" classname="bigBoy.app.user.infromTest" />
+                <testcase name="addInformChannelTest" time="0.355" classname="bigBoy.app.user.infromTest" />
+      
+</testsuite>

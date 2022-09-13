@@ -7,10 +7,10 @@ package bigBoy.app;
  * @create: 2021-01-29 11:38
  **/
 public class basicTest {
-
     public static String apiDomain = "http://bigboy-sit.hupu.com";
-    public static String project = "1";//Android--iOS
-    public static String version = "1.1.1";//版本号
-    public static String backendDomain = "http://msv-zuul-sit.hupu.io:8769/bigboy-backend-api";
-
- }
+    public static String project = "2";//Android--iOS
+    public static String version = "1.2.6";//版本号
+    public static String appapi = "/appapi/" + project + "/" + version;
+    public static String backendDomain = "http://bigboy-backend-api-sit.bigboy.club/bigboy-backend-api";
+    public static String hupuBackendDomain = "http://msv-zuul-sit.hupu.io//bigboy-hupubackend-api";
+}
