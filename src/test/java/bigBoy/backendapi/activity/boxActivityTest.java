@@ -31,7 +31,7 @@ public class boxActivityTest {
     public void addTopicCategoryTest() throws Exception{
         RestClient rc = new RestClient(basicTest.backendDomain,"/backendapi/boxActivity/addTopicCategory");
         HashMap<String,Object> map = new HashMap<>();
-        map.put("name","抽赏"+ RandomUtil.getDigits(4));
+        map.put("name","分类tab"+ RandomUtil.getDigits(2));
         map.put("image","https://bigboy-img.hoopchina.com.cn/manage-img/1626069912_423_width_548_height_552.png");
         map.put("online",1);//1：上线 0：下线
         rc.body(JSONArray.toJSON(map));
